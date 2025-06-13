@@ -1,0 +1,109 @@
+/* About content */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 1%;
+  margin: 50px 100px 50px 100px;
+  max-width: 100%;
+}
+
+.content {
+  margin: 15px;
+}
+
+.content h1 {
+  font-size: 90px;
+  margin-bottom: 15px;
+}
+
+.content h2 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #29424a;
+  width: 300px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #56c5e0;
+  width: 300px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 5px 5px 5px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.image {
+  max-width: 550px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.container .image {
+  padding: 0 20px; /* Consistent padding */
+  flex-basis: 550px; /* Base size in the flex container */
+}
+
+/* About content responsive */
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    margin: 0px 0px 50px 0px;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    max-width: 300px; 
+    max-height: fit-content;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .content h1 {
+    font-size: 45px;
+  }
+
+  .content h2 {
+    font-size: 35px;
+  }
+
+  .content p {
+    font-size: 21px;
+  }
+
+  .container {
+    margin-bottom: 15px;
+  }
+
+  .button {
+    width: 325px;
+  }
+
+  .button1 {
+    width: 325px;
+  }
+}

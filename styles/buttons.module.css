@@ -1,0 +1,27 @@
+.button {
+    background-color: #FF7F65;
+    width: 300px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #FFE8E5;
+    width: 300px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    font-size: 22px;
+    cursor: pointer;
+  }

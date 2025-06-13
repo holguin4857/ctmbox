@@ -1,0 +1,35 @@
+.card {
+  background-color: #FF7F65;
+  color: white;
+  padding: 1rem;
+  height: 20rem;
+  text-align: center;
+  padding: 80px 70px 0px 70px;
+}
+
+.cards {
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.cards p {
+  font-size: 24px;
+}
+
+.cards h3 {
+  font-size: 38px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

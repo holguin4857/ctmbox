@@ -1,0 +1,53 @@
+
+
+/*3 column content*/
+
+.columns {
+  display: flex;
+  flex-wrap: wrap; /* Allow columns to wrap */
+  background-color: #FFE8E5;
+  align-items: center;
+  padding: 3%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 21px;
+  gap: 1rem; /* Add space between columns */
+}
+
+.column {
+  flex: 1; /* Allow columns to grow equally */
+  margin: 1rem; /* Add spacing around columns */
+}
+
+.column h2 {
+  font-size: 30px;
+  padding: 0px;
+  padding-bottom: 30px;
+}
+
+.column p {
+  padding: 0px;
+}
+
+.column img {
+  padding: 5px;
+}
+
+/*3 column content responsive*/
+
+@media screen and (max-width: 980px) {
+  .columns {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+    font-size: 21px;
+  }
+
+  .column {
+    padding: 15px;
+  }
+}
