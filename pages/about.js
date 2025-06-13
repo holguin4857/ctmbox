@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import about from "../styles/about.module.css";
-import buttons from "../styles/buttons.module.css";
 import features from "../styles/features.module.css";
 import hero from "../styles/hero.module.css";
 
