@@ -146,7 +146,7 @@ export default function Home() {
               your core business.
             </li>
             <li>
-              <strong>Reliability & Transparency: </strong> Your cargo's journey
+              <strong>Reliability & Transparency: </strong> Your cargo&apos;s journey
               is our priority. We commit to clear communication, precise
               execution, and dependable service every step of the way.
             </li>

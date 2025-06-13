@@ -73,7 +73,7 @@ export default function About() {
             Fully bilingual in English and Spanish and with deep understanding of
             global logistics, coupled with his proven track record in
             international trade, significantly enhances CTM Cargo Transportation
-            Management LLC's capability to offer comprehensive and reliable
+            Management LLC&apos;s capability to offer comprehensive and reliable
             solutions, especially for clients with broader international
             shipping needs beyond the immediate Sonora-Arizona corridor.
           </p>
