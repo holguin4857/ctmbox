@@ -18,20 +18,30 @@ export default function Contact() {
           <h2>Contact CTM: Your shipping solutions start here</h2>
           <p></p>
 
-          <p>Have questions about shipping your cargo? We are here to help!.</p>
           <p>
-            <strong>- Address:</strong> Cargo Transport Management LLC, 791 E
+            At CTM Cargo Transportation Management LLC, with our headquarters in
+            Tucson, Arizona and our combined 40 years of logistics expertise to
+            the table, we are perfectly positioned to manage your freight
+            requirements, from local and cross-border trucking to comprehensive
+            international freight forwarding.
+            <strong> Get in touch! </strong> We are ready to answer your questions and provide you with a customized quote.
+          </p>
+          
+          <p>
+            <strong>Address:</strong><br />Cargo Transportation Management LLC, 791 E
             Evans Blvd. Tucson, AZ ZIP 85713
           </p>
           <p>
-            <strong>- Tel:</strong> +1-520-358-9236, +1-480-318-7397{" "}
+            <strong>Tels:</strong><br />+1-520-358-9236, +1-480-318-7397{" "}
           </p>
           <p>
-            <strong>- Email Rogelio Romo:</strong> rogelio@ctmbox.com
+            <strong>Email:</strong><br />
+            For general enquiries and trucking services:<br />
+            - Rogelio Romo: <strong>rogelio@ctmbox.com</strong><br />
+            For international freight forwarding and other inquiries:<br />
+            - Omar Holguin: <strong>omar@ctmbox.com</strong>
           </p>
-          <p>
-            <strong>- Email Omar Holguin:</strong> omar@ctmbox.com
-          </p>
+         
           <p></p>
 
           <button className={buttons.button}>
