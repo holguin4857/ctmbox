@@ -45,7 +45,7 @@ export default function Contact() {
           <p></p>
 
           <button className={buttons.button}>
-            <Link href="https://trexco.involve.me/trexco-personalized-quote">
+            <Link href="book">
               Book now
             </Link>
           </button>

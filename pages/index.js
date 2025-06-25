@@ -28,7 +28,7 @@ export default function Home() {
             Arizona-Sonora corridor.
           </p>
           <button className={hero.button}>
-            <Link href="https://trexco.involve.me/trexco-personalized-quote">
+            <Link href="book">
               Get started
             </Link>
           </button>
@@ -265,7 +265,7 @@ export default function Home() {
             and a commitment to efficiency and reliability.
           </p>
           <button className={buttons.button}>
-            <Link href="https://trexco.involve.me/trexco-personalized-quote">
+            <Link href="book">
               Book now
             </Link>
           </button>

@@ -169,7 +169,7 @@ export default function Services() {
             and a commitment to efficiency and reliability.
           </p>
           <button className={hero.button}>
-            <Link href="https://trexco.involve.me/trexco-personalized-quote">
+            <Link href="book">
               Book now
             </Link>
           </button>

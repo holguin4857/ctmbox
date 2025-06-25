@@ -104,7 +104,7 @@ export default function About() {
             <Link href="contact">Talk to an expert</Link>
           </button>
           <button className={hero.button1}>
-            <Link href="contact">Get started</Link>
+            <Link href="book">Get started</Link>
           </button>
         </div>
       </section>
