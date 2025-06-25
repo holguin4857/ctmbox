@@ -37,11 +37,12 @@ export default function Book() {
           */}
           <button 
             className={`${buttons.button} involveme_popup`}
-            data-project="trexco-personalized-quote"
+            data-project="CTM-quote"
             data-embed-mode="popup"
             data-trigger-event="button"
             data-popup-size="medium"
             data-organization-url="https://trexco.involve.me"
+            data-title="CTM Quote"
           >
             Book Now
           </button>
