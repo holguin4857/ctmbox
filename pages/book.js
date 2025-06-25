@@ -35,14 +35,7 @@ export default function Book() {
             </Link>
           </button>
         </div>
-        <div className="image">
-          <Image
-            src="/images/airplane.png"
-            alt="loading"
-            width={550}
-            height={550}
-          />
-        </div>
+       
       </section>
     </>
   );

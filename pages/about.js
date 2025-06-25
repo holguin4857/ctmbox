@@ -28,6 +28,16 @@ export default function About() {
         </div>
       </section>
       <div className={features.container}>
+        <div className="image">
+          <Image
+            src="/images/romo.jpeg"
+            alt="Rogelio Romo"
+            width={300}
+            height={300}
+            placeholder="blur"
+            blurDataURL="/images/romo.jpeg"
+          />
+        </div>
         <div className={features.content}>
           <p>
             <strong>Rogelio Romo: </strong>Bringing over 15 years of extensive
@@ -47,18 +57,18 @@ export default function About() {
             and ensuring your cargo reaches its destination efficiently.
           </p>
         </div>
+      </div>
+      <div className={features.container}>
         <div className="image">
           <Image
-            src="/images/romo.jpeg"
-            alt="Rogelio Romo"
+            src="/images/holguin.png"
+            alt="Omar Holguin"
             width={300}
             height={300}
             placeholder="blur"
-            blurDataURL="/images/romo.jpeg"
+            blurDataURL="/images/holguin.png"
           />
         </div>
-      </div>
-      <div className={features.container}>
         <div className={features.content}>
           <p>
             <strong>Omar Holguin: </strong>Omar brings a robust international
@@ -70,23 +80,13 @@ export default function About() {
             container shipping and airfreight.
           </p>
           <p>
-            Fully bilingual in English and Spanish and with deep understanding of
-            global logistics, coupled with his proven track record in
+            Fully bilingual in English and Spanish and with deep understanding
+            of global logistics, coupled with his proven track record in
             international trade, significantly enhances CTM Cargo Transportation
             Management LLC&apos;s capability to offer comprehensive and reliable
             solutions, especially for clients with broader international
             shipping needs beyond the immediate Sonora-Arizona corridor.
           </p>
-        </div>
-        <div className="image">
-          <Image
-            src="/images/holguin.png"
-            alt="Omar Holguin"
-            width={300}
-            height={300}
-            placeholder="blur"
-            blurDataURL="/images/holguin.png"
-          />
         </div>
       </div>
 
