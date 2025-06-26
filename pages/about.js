@@ -2,8 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import about from "../styles/about.module.css";
-import features from "../styles/features.module.css";
-import hero from "../styles/hero.module.css";
+import buttons from "../styles/buttons.module.css";
 
 export default function About() {
   return (
@@ -27,8 +26,8 @@ export default function About() {
           </p>
         </div>
       </section>
-      <div className={features.container}>
-        <div className="image">
+      <div className={about.container}>
+        <div className={about.image}>
           <Image
             src="/images/romo.jpeg"
             alt="Rogelio Romo"
@@ -38,7 +37,7 @@ export default function About() {
             blurDataURL="/images/romo.jpeg"
           />
         </div>
-        <div className={features.content}>
+        <div className={about.contentimage}>
           <p>
             <strong>Rogelio Romo: </strong>Bringing over 15 years of extensive
             experience to CTM Cargo Transportation Management LLC, Rogelio is a
@@ -58,8 +57,8 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className={features.container}>
-        <div className="image">
+      <div className={about.container}>
+        <div className={about.image}>
           <Image
             src="/images/holguin.png"
             alt="Omar Holguin"
@@ -69,7 +68,7 @@ export default function About() {
             blurDataURL="/images/holguin.png"
           />
         </div>
-        <div className={features.content}>
+        <div className={about.content}>
           <p>
             <strong>Omar Holguin: </strong>Omar brings a robust international
             perspective and nearly two decades of freight forwarding expertise
@@ -100,10 +99,10 @@ export default function About() {
             advantage.{" "}
           </p>
 
-          <button className={hero.button}>
+          <button className={buttons.button}>
             <Link href="contact">Talk to an expert</Link>
           </button>
-          <button className={hero.button1}>
+          <button className={buttons.button1}>
             <Link href="book">Get started</Link>
           </button>
         </div>
