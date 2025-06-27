@@ -25,7 +25,7 @@ nav {
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 30px; /* This will be overridden by the Image component's width/height props */
 }
 
 .nav__menu-bar {
@@ -41,8 +41,8 @@ nav {
   border-radius: 2px;
 }
 .nav__menu-list {
-  display: flex;
-  flex-direction: column;
+  display: flex; /* Keep this as flex */
+  flex-direction: column; /* Default for mobile/smaller screens */
   position: fixed;
   top: 60px;
   width: 288px;
@@ -62,23 +62,77 @@ nav {
   transition: all 0.2s;
 }
 
+/* --- NEW STYLES FOR LANGUAGE BUTTON --- */
+
+.language-toggle {
+  /* No specific styles needed for this wrapper div unless you want extra spacing */
+}
+
+.language-button {
+  /* Basic Button Style */
+  background-color: #FFE8E5; /* Light grey background */
+  color: #333; /* Dark text */
+  border: 1px solid #ccc; /* Subtle border */
+  padding: 8px 14px; /* Adjust padding for a slightly larger button if desired */
+  border-radius: 4px; /* Slightly rounded corners */
+  cursor: pointer; /* Indicates it's clickable */
+  font-size: 0.9em; /* Slightly smaller font size than main text */
+  font-weight: 500; /* Medium font weight */
+  transition: all 0.2s ease-in-out; /* Smooth transition for hover effects */
+  text-transform: uppercase; /* "EN" / "ES" will be uppercase */
+  min-width: 50px; /* Ensures consistent width for both EN and ES */
+  text-align: center; /* Centers the text within the button */
+  
+
+  /* Ensure it looks good in a column layout (mobile) */
+  width: 100%; /* Take full width in column layout */
+}
+
+.language-button:hover {
+  background-color: #FF7F65; /* Darker grey on hover */
+  border-color: #bbb; /* Darker border on hover */
+  
+}
+
+.language-button:active {
+  background-color: #FF7F65; /* Even darker on click */
+  transform: translateY(1px); /* Slight press effect */
+  
+}
+
+/* --- END NEW STYLES --- */
+
+
 .center {
   min-height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* --- MEDIA QUERIES --- */
 @media screen and (min-width: 768px) {
   .nav__menu-bar {
     display: none;
   }
   .nav__menu-list {
     position: unset;
-    flex-direction: row;
+    flex-direction: row; /* Changes to row for desktop */
     min-height: fit-content;
     width: fit-content;
-    column-gap: 24px;
+    column-gap: 24px; /* Spacing between nav items on desktop */
     align-items: center;
+  }
+
+  /* Adjustments for language button on desktop */
+  .language-toggle {
+    margin-left: 10px; /* Add some spacing between the last nav item and the button */
+  }
+
+  .language-button {
+    width: auto; /* Allow button to size naturally */
+    padding: 6px 12px; /* Slightly less padding on desktop if desired */
+    font-size: 1em; /* Adjust font size relative to other nav items */
   }
 }
 
@@ -88,6 +142,6 @@ nav {
   }
 
   .logo {
-    font-size: 30px;
+    font-size: 30px; /* This will be overridden by the Image component's width/height props */
   }
 }
