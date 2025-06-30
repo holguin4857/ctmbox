@@ -126,7 +126,7 @@ export default function Home() {
               <strong>Especialización en Zona Franca (FTZ 60):</strong> Genere
               importantes ahorros en costes y gane eficiencia operativa.
               Contamos con la experiencia para gestionar el flujo de carga en la
-              Zona de Libre Comercio 60, garantizando el cumplimiento normativo
+              Zona de Libre Comercio FTZ 60, garantizando el cumplimiento normativo
               y maximizando sus beneficios.
             </li>
 

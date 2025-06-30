@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Script from 'next/script'; 
+import Script from "next/script";
 import hero from "../../styles/hero.module.css";
 import buttons from "../../styles/buttons.module.css";
 
@@ -15,24 +15,34 @@ export default function Book() {
 
       <section className={hero.container}>
         <div className={hero.content}>
-          <h2>Ready to Ship? Start Your Booking Here</h2>
+          <h2>Obtenga una cotización experta y rápida</h2>
           <p></p>
 
           <p>
-            Don&apos;t waste time navigating complicated booking processes. Our
-            streamlined form makes it simple to request a quote and book your
-            shipment. We are here to answer any questions you may have along the
-            way.
+            ¿Listo para su envío? Nuestro formulario es más que una simple
+            solicitud de precios: es el primer paso para diseñar su solución
+            logística a medida. La información clave que nos facilita (tipo de
+            carga, ruta y requisitos aduaneros){" "}
+            <strong>
+              pone en marcha nuestro motor de 40 años de experiencia.
+            </strong>
+            .
           </p>
-          
+          <p>
+            Esto nos permite asignarle el transporte idóneo, prever los desafíos
+            del cruce fronterizo y entregarle una cotización competitiva y
+            precisa. El objetivo es claro: un plan de envío optimizado y sin
+            sorpresas para usted.
+          </p>
+
           <p></p>
-          
+
           {/* 2. THIS IS THE NEW BUTTON
             The old button with the <Link> inside has been replaced by this.
             It combines your styles with the required 'involveme_popup' class
             and includes the necessary data attributes for the script.
           */}
-          <button 
+          <button
             className={`${buttons.button} involveme_popup`}
             data-project="CTM-quote"
             data-embed-mode="popup"
@@ -41,10 +51,9 @@ export default function Book() {
             data-organization-url="https://trexco.involve.me"
             data-title="CTM Quote"
           >
-            Book Now
+            Reservar Ahora
           </button>
         </div>
-        
       </section>
 
       {/* 3. ADD THE SCRIPT HERE
@@ -52,9 +61,9 @@ export default function Book() {
         'afterInteractive' strategy, we ensure it doesn't slow down your
         page's initial load time.
       */}
-      <Script 
-        src="https://trexco.involve.me/embed?type=popup" 
-        strategy="afterInteractive" 
+      <Script
+        src="https://trexco.involve.me/embed?type=popup"
+        strategy="afterInteractive"
       />
     </>
   );

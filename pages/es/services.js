@@ -17,46 +17,49 @@ export default function Services() {
 
       <div className={hero.container}>
         <div className={hero.content}>
-          <h2>Our Comprehensive Freight Forwarding Services</h2>
+          <h2>Nuestra Gama Completa de Servicios Logísticos</h2>
 
           <p>
-            At CTM Cargo Transportation Management LLC, we provide a full
-            spectrum of logistics solutions designed to meet the diverse needs
-            of your business. From cross-border ground transport to global air
-            and sea shipments, our experienced team ensures your cargo is
-            delivered efficiently, securely, and on time.
+            En CTM Cargo Transportation Management LLC, ofrecemos una gama
+            completa de soluciones logísticas diseñadas para satisfacer las
+            diversas necesidades de su negocio. Desde el transporte terrestre
+            transfronterizo hasta envíos aéreos y marítimos globales, nuestro
+            equipo experto garantiza que su carga sea entregada de forma
+            eficiente, segura y puntual.
           </p>
 
           <button className={hero.button1}>
-            <Link href="contact">Talk to an expert</Link>
+            <Link href="contact">Hable con un experto</Link>
           </button>
         </div>
       </div>
 
       <div className={features.container}>
         <div className={features.content}>
-          <h2>Road Freight</h2>
+          <h2>Transporte Terrestre</h2>{" "}
           <p>
             <strong>
-              Ship your cargo confidently across the Arizona-Sonora corridor and
-              beyond.
+              Transporte su carga con total confianza por el corredor
+              Arizona-Sonora y más allá.
             </strong>{" "}
-            Our road freight solutions are the backbone of efficient
-            cross-border trade between Mexico and the United States, with
-            specialized expertise in the dynamic Arizona-Sonora corridor. We
-            offer reliable, flexible, and tailored ground transport services for
-            a wide range of goods, whether you require Full Truckload (FTL) for
-            large volumes or Less Than Truckload (LTL) for smaller, more
-            cost-effective shipments.
+            Nuestras soluciones de transporte terrestre son la columna vertebral
+            del comercio transfronterizo eficiente entre México y Estados
+            Unidos, con una experiencia especializada en el dinámico corredor
+            Arizona-Sonora. Ofrecemos servicios de transporte terrestre
+            confiables, flexibles y a la medida para una amplia gama de
+            mercancías, tanto si necesita Camión Completo (FTL) para grandes
+            volúmenes, como Carga Consolidada (LTL) para envíos más pequeños y
+            rentables.
           </p>
           <p>
-            Leveraging our extensive network and Rogelio Romo hands-on
-            experience as a trucking company owner, we ensure secure,
-            door-to-door delivery. We manage all aspects of ground
-            transportation, including efficient border crossing procedures,
-            comprehensive cargo security, and, where applicable, real-time
-            tracking to provide you with complete visibility and peace of mind
-            from pickup to final destination.
+            Aprovechando nuestra amplia red y nuestra experiencia práctica al
+            tener nuestra propia flota de camiones en los Estados Unidos,
+            garantizamos entregas seguras de puerta a puerta. Gestionamos todos
+            los aspectos del transporte terrestre, incluyendo procedimientos
+            eficientes de cruce fronterizo, una seguridad de carga integral y,
+            cuando corresponde, seguimiento en tiempo real para ofrecerle una
+            visibilidad completa y total tranquilidad desde la recogida hasta el
+            destino final
           </p>
         </div>
         <div className="image">
@@ -72,27 +75,27 @@ export default function Services() {
       </div>
       <div className={features.container}>
         <div className={features.content}>
-          <h2>Sea Freight</h2>
+          <h2>Transporte Maritimo</h2>
           <p>
             <strong>
-              Optimize your international shipments with our flexible ocean
-              solutions.
+              Optimice sus envíos internacionales con nuestras flexibles
+              soluciones marítimas.
             </strong>{" "}
-            For businesses seeking cost-effective and reliable transportation
-            for large volumes of goods across global distances, our sea freight
-            services are the ideal choice. We offer both Full Container Load
-            (FCL) options, providing you with exclusive use of a container for
-            maximum security and efficiency, and Less than Container Load (LCL)
-            solutions, where your cargo shares space with other shipments to
-            optimize costs.
+            Para las empresas que buscan un transporte rentable y confiable para
+            grandes volúmenes de mercancía, nuestros servicios de transporte
+            marítimo son la opción ideal. Ofrecemos tanto opciones de Contenedor
+            Completo (FCL), que le proporcionan el uso exclusivo de un
+            contenedor para máxima seguridad y eficiencia, como soluciones de
+            Carga Consolidada (LCL), donde su carga comparte espacio con otros
+            envíos para optimizar los costos.
           </p>
           <p>
-            With a global network of partners and carriers, we facilitate
-            seamless international movements, handling diverse cargo types from
-            general goods to specialized equipment. Our expertise extends to
-            managing complex customs procedures, documentation, and coordinating
-            port-to-door deliveries, ensuring your goods reach their
-            international destinations efficiently and economically.
+            Facilitamos movimientos internacionales sin contratiempos, manejando
+            diversos tipos de carga, desde mercancías generales hasta equipos
+            especializados. Nuestra experiencia abarca la gestión de
+            procedimientos aduaneros, la documentación y la coordinación de
+            entregas de puerto a puerta, garantizando que sus mercancías lleguen
+            a sus destinos internacionales de manera eficiente y económica.
           </p>
         </div>
         <div className="image">
@@ -109,26 +112,28 @@ export default function Services() {
 
       <div className={features.container}>
         <div className={features.content}>
-          <h2>Air freight</h2>
+          <h2>Transporte Aéreo</h2>
           <p>
             <strong>
-              For urgent or time-sensitive cargo, choose our expedited air
-              services.
+              Para su carga urgente, elija nuestros servicios aéreos.
             </strong>{" "}
-            When speed and reliability are paramount, our air freight services
-            provide the fastest possible transit times for your critical
-            shipments. Designed for urgent, high-value, or time-sensitive cargo,
-            we offer expedited solutions that ensure your goods meet the
-            tightest deadlines, worldwide.
+            Cuando la velocidad y la fiabilidad son primordiales, nuestros
+            servicios de transporte aéreo ofrecen los tiempos de tránsito más
+            rápidos posibles para sus envíos críticos. Diseñadas para carga
+            urgente, de alto valor o sensible al tiempo, nuestras soluciones
+            prioritarias aseguran que sus mercancías cumplan con los plazos más
+            exigentes, a nivel mundial.
           </p>
           <p>
-            Leveraging a robust network of global airline partners, we provide
-            secure and dependable transport for everything from spare parts and
-            essential components to high-value goods and perishable items. Our
-            team manages all aspects of air cargo logistics, including swift
-            customs clearance, meticulous handling, and precise scheduling,
-            guaranteeing that your valuable cargo arrives at its destination
-            quickly and safely, minimizing downtime for your operations.
+            Apoyados en una sólida red de aerolíneas asociadas, proporcionamos
+            un transporte seguro y confiable para todo tipo de mercancía, desde
+            piezas de repuesto y componentes esenciales hasta bienes de alto
+            valor y productos perecederos. Nuestro equipo gestiona todos los
+            aspectos de la logística de carga aérea, incluyendo un rápido
+            despacho de aduanas, una manipulación meticulosa y una programación
+            precisa, garantizando que su valiosa carga llegue a su destino de
+            forma rápida y segura, minimizando el tiempo de inactividad de sus
+            operaciones.
           </p>
         </div>
         <div className="image">
@@ -146,32 +151,31 @@ export default function Services() {
       <div className={milestones.cards}>
         <div className={milestones.card}>
           <h3>9000+</h3>
-          <p>Crates Shipped by Air and Road</p>
+          <p>Envíos por Aire y Tierra</p>
         </div>
         <div className={milestones.card}>
           <h3>600+</h3>
-          <p>Full containers shipped by sea</p>
+          <p>Contenedores completos por vía marítima</p>
         </div>
         <div className={milestones.card}>
           <h3>35000+</h3>
-          <p>Happy Clients</p>
+          <p>Clientes Satisfechos</p>
         </div>
       </div>
 
       <section className={hero.container}>
         <div className={hero.content}>
-          <h2>How we make a difference</h2>
+          <h2>Lo que nos hace diferentes</h2>
           <p>
-            CTM Cargo Transportation Management LLC offers a complete suite of
-            logistics and freight forwarding services, ensuring seamless
-            movement of your goods, whether across the border or around the
-            globe. We provide tailored solutions backed by extensive experience
-            and a commitment to efficiency and reliability.
+            CTM Cargo Transportation Management LLC ofrece una gama completa de
+            servicios de logística y transporte internacional, garantizando el
+            movimiento fluido de sus mercancías, tanto a nivel transfronterizo
+            como global. Ofrecemos soluciones a la medida, respaldadas por una
+            amplia experiencia y nuestro compromiso con la eficiencia y la
+            confiabilidad.
           </p>
           <button className={hero.button}>
-            <Link href="book">
-              Book now
-            </Link>
+            <Link href="book">Reservar Ahora</Link>
           </button>
         </div>
       </section>

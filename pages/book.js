@@ -1,8 +1,8 @@
 import Head from "next/head";
 // The Link component is no longer needed for the button, but may be used elsewhere.
-import Link from "next/link"; 
+import Link from "next/link";
 // 1. We need to import the Script component from Next.js
-import Script from 'next/script'; 
+import Script from "next/script";
 import hero from "../styles/hero.module.css";
 import buttons from "../styles/buttons.module.css";
 
@@ -18,24 +18,28 @@ export default function Book() {
 
       <section className={hero.container}>
         <div className={hero.content}>
-          <h2>Ready to Ship? Start Your Booking Here</h2>
+          <h2>Let&apos;s Plan Your Perfect Shipment, Together.</h2>
           <p></p>
 
           <p>
-            Don&apos;t waste time navigating complicated booking processes. Our
-            streamlined form makes it simple to request a quote and book your
-            shipment. We are here to answer any questions you may have along the
-            way.
+            Every shipment has a unique story. Let&apos;s write yours. Our
+            process begins with a few simple questions. Your answers help us
+            understand the specifics of your cargo and its journey.
           </p>
-          
+          <p>
+            With this information, our team can craft a tailored logistics plan
+            and provide a clear, all-inclusive quote. No complicated processes.
+            Just a straightforward plan to get your goods where they need to go.
+          </p>
+
           <p></p>
-          
+
           {/* 2. THIS IS THE NEW BUTTON
             The old button with the <Link> inside has been replaced by this.
             It combines your styles with the required 'involveme_popup' class
             and includes the necessary data attributes for the script.
           */}
-          <button 
+          <button
             className={`${buttons.button} involveme_popup`}
             data-project="CTM-quote"
             data-embed-mode="popup"
@@ -47,7 +51,6 @@ export default function Book() {
             Book Now
           </button>
         </div>
-        
       </section>
 
       {/* 3. ADD THE SCRIPT HERE
@@ -55,9 +58,9 @@ export default function Book() {
         'afterInteractive' strategy, we ensure it doesn't slow down your
         page's initial load time.
       */}
-      <Script 
-        src="https://trexco.involve.me/embed?type=popup" 
-        strategy="afterInteractive" 
+      <Script
+        src="https://trexco.involve.me/embed?type=popup"
+        strategy="afterInteractive"
       />
     </>
   );

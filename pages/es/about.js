@@ -16,13 +16,14 @@ export default function About() {
 
       <section className={about.container}>
         <div className={about.content}>
-          <h2>Reasons to count on CTM</h2>
+          <h2>Por qué contar con nosotros</h2>
           <p>
-            At CTM Cargo Transportation Management LLC, we are dedicated to
-            providing seamless and efficient freight forwarding solutions for
-            businesses looking to operate in the Sonora-Arizona corridor. Our
-            expertise lies in connecting exporters with the US market, ensuring
-            your goods move smoothly and reliably across the border.{" "}
+            En CTM Cargo Transportation Management LLC, nos dedicamos a ofrecer
+            soluciones de transporte de carga fluidas y eficientes para empresas
+            con operaciones en el corredor Sonora-Arizona. Nuestra especialidad
+            es conectar a los exportadores con el mercado estadounidense,
+            garantizando que sus mercancías se muevan de forma fluida y
+            confiable a través de la frontera.{" "}
           </p>
         </div>
       </section>
@@ -39,21 +40,23 @@ export default function About() {
         </div>
         <div className={about.contentimage}>
           <p>
-            <strong>Rogelio Romo: </strong>Bringing over 15 years of extensive
-            experience to CTM Cargo Transportation Management LLC, Rogelio is a
-            seasoned expert in the trucking and logistics sector. He currently
-            operates his own trucking company, managing a fleet of 7 trucks,
-            which provides him with invaluable, hands-on insight into road
-            freight operations. As a freight broker and owner based in Tucson,
-            he possesses a comprehensive understanding of transportation
-            dynamics and warehousing.
+            <strong>Rogelio Romo: </strong>Rogelio aporta a CTM Cargo
+            Transportation Management LLC más de 15 años de amplia experiencia,
+            siendo un experto consolidado en el sector del transporte y la
+            logística. Actualmente, dirige su propia empresa de transporte con
+            una flota de 7 camiones, lo que le proporciona un conocimiento
+            práctico e invaluable de las operaciones de transporte terrestre.
+            Como bróker de carga y propietario con sede en Tucson, posee un
+            profundo conocimiento de la dinámica del transporte y del
+            almacenaje.
           </p>
           <p>
-            Rogelio is fluent in both English and Spanish, coupled with his
-            extensive connections in Mexico, makes him an unparalleled resource
-            for navigating the complexities of cross-border shipping between
-            Sonora and Arizona. He is committed to optimizing your supply chain
-            and ensuring your cargo reaches its destination efficiently.
+            Su dominio del inglés y el español, unido a su extensa red de
+            contactos en México, lo convierte en un recurso inigualable para
+            navegar las complejidades del transporte transfronterizo entre
+            Sonora y Arizona. Rogelio está comprometido con la optimización de
+            su cadena de suministro y con garantizar que su carga llegue a su
+            destino de manera eficiente.
           </p>
         </div>
       </div>
@@ -70,40 +73,43 @@ export default function About() {
         </div>
         <div className={about.content}>
           <p>
-            <strong>Omar Holguin: </strong>Omar brings a robust international
-            perspective and nearly two decades of freight forwarding expertise
-            to our team. For the past 20 years, Omar has been successfully
-            running Trexco International Limited, a freight forwarding agency
-            based in London, UK. His extensive experience spans the complex UK
-            to South America export market, with a strong focus on both
-            container shipping and airfreight.
+            <strong>Omar Holguin: </strong>Omar aporta a nuestro equipo una
+            sólida perspectiva internacional y cerca de 20 años de experiencia
+            en el transporte de carga internacional. Durante los últimos 20
+            años, ha dirigido con éxito Trexco International Limited, una
+            agencia de transporte de carga con sede en Londres (Reino Unido). Su
+            amplia experiencia abarca el complejo mercado de exportación desde
+            el Reino Unido hacia Sudamérica, con un sólido enfoque tanto en el
+            transporte marítimo de contenedores como en la carga aérea.
           </p>
           <p>
-            Fully bilingual in English and Spanish and with deep understanding
-            of global logistics, coupled with his proven track record in
-            international trade, significantly enhances CTM Cargo Transportation
-            Management LLC&apos;s capability to offer comprehensive and reliable
-            solutions, especially for clients with broader international
-            shipping needs beyond the immediate Sonora-Arizona corridor.
+            El ser completamente bilingüe en inglés y español, su profundo
+            conocimiento de la logística global y su probada trayectoria en el
+            comercio internacional, mejoran significativamente la capacidad de
+            CTM Cargo Transportation Management LLC para ofrecer soluciones
+            integrales y confiables. Esto es especialmente valioso para aquellos
+            clientes con necesidades de envío internacional que van más allá del
+            corredor inmediato de Sonora-Arizona.
           </p>
         </div>
       </div>
 
       <section className={about.container}>
         <div className={about.content}>
-          <h2>We are here to help you</h2>
+          <h2>Estamos aquí para ayudarle</h2>
           <p>
-            Our success is built on a foundation of deep industry knowledge and
-            a commitment to customer satisfaction. We understand the intricacies
-            of cross-border logistics and leverage our extensive network to your
-            advantage.{" "}
+            Nuestro éxito se asienta sobre un profundo conocimiento del sector y
+            un sólido compromiso con la satisfacción de nuestros clientes.
+            Conocemos al detalle las particularidades de la logística
+            transfronteriza y ponemos a su alcance toda nuestra red para que
+            obtenga el máximo beneficio.{" "}
           </p>
 
           <button className={buttons.button}>
-            <Link href="contact">Talk to an expert</Link>
+            <Link href="contact">Hable con un experto</Link>
           </button>
           <button className={buttons.button1}>
-            <Link href="book">Get started</Link>
+            <Link href="book">Reservar Ahora</Link>
           </button>
         </div>
       </section>

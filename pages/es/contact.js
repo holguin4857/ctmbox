@@ -15,39 +15,46 @@ export default function Contact() {
 
       <section className={hero.container}>
         <div className={hero.content}>
-          <h2>Contact CTM: Your shipping solutions start here</h2>
+          <h2>
+            Hable con nosotros: El primer paso para sus soluciones logísticas
+          </h2>
           <p></p>
 
           <p>
-            At CTM Cargo Transportation Management LLC, with our headquarters in
-            Tucson, Arizona and our combined 40 years of logistics expertise to
-            the table, we are perfectly positioned to manage your freight
-            requirements, from local and cross-border trucking to comprehensive
-            international freight forwarding.
-            <strong> Get in touch! </strong> We are ready to answer your questions and provide you with a customized quote.
+            En CTM Cargo Transportation Management LLC, con sede en Tucson
+            (Arizona), aportamos 40 años de experiencia combinada en logística.
+            Estamos perfectamente posicionados para gestionar sus necesidades de
+            transporte de carga, desde el transporte local y transfronterizo
+            hasta servicios integrales de transporte internacional.{" "}
+            <strong>¡Contacte con nosotros!</strong> Estamos a su disposición
+            para resolver sus dudas y ofrecerle un presupuesto personalizado.
           </p>
-          
+
           <p>
-            <strong>Address:</strong><br />Cargo Transportation Management LLC, 791 E
-            Evans Blvd. Tucson, AZ ZIP 85713
+            <strong>Dirección:</strong>
+            <br />
+            Cargo Transportation Management LLC, 791 E Evans Blvd. Tucson, AZ
+            ZIP 85713
           </p>
           <p>
-            <strong>Tels:</strong><br />+1-520-358-9236, +1-480-318-7397{" "}
+            <strong>Teléfonos:</strong>
+            <br />
+            +1-520-358-9236, +1-480-318-7397{" "}
           </p>
           <p>
-            <strong>Email:</strong><br />
-            For general enquiries and trucking services:<br />
-            - Rogelio Romo: <strong>rogelio@ctmbox.com</strong><br />
-            For international freight forwarding and other inquiries:<br />
-            - Omar Holguin: <strong>omar@ctmbox.com</strong>
+            <strong>Correo electrónico:</strong>
+            <br />
+            Para consultas generales y servicios de transporte terrestre:
+            <br />- Rogelio Romo: <strong>rogelio@ctmbox.com</strong>
+            <br />
+            Para transporte de carga internacional y otras consultas:
+            <br />- Omar Holguin: <strong>omar@ctmbox.com</strong>
           </p>
-         
+
           <p></p>
 
           <button className={buttons.button}>
-            <Link href="book">
-              Book now
-            </Link>
+            <Link href="book">Reservar ahora</Link>
           </button>
         </div>
       </section>
