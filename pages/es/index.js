@@ -13,8 +13,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cargo Transportation Management</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>CTM Cargo Transportation Management</title>
+        <meta
+          name="description"
+          content="Simplificamos su logística transfronteriza. Expertos en envíos entre EE.UU. y México a través del corredor Arizona-Sonora. Su carga segura y a tiempo."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -24,12 +27,11 @@ export default function Home() {
           <h1>cruzando fronteras, simplificando su negocio</h1>
 
           <p>
-            Su aliado estrategico para el comercio internacional por el corredor Arizona-Sonora.
+            Su aliado estrategico para el comercio internacional por el corredor
+            Arizona-Sonora.
           </p>
           <button className={hero.button}>
-            <Link href="book">
-              Comenzar Ahora
-            </Link>
+            <Link href="book">Reservar Ahora</Link>
           </button>
           <button className={hero.button1}>
             <Link href="contact">Hable con un experto</Link>
@@ -45,11 +47,11 @@ export default function Home() {
             width={200}
             height={200}
           />
-          <h2>Road Freight</h2>
+          <h2>Transporte Terrestre</h2>
           <p>
-            Ship your cargo confidently across the Arizona-Sonora corridor and
-            beyond. Efficient, reliable, and tailored ground transport for all
-            your goods.
+            Transporte su carga con total confianza a través del corredor
+            Arizona-Sonora y más allá. Ofrecemos un servicio de transporte
+            terrestre eficiente, confiable y personalizado para su carga.
           </p>
         </article>
         <article className={services.column}>
@@ -59,11 +61,11 @@ export default function Home() {
             width={200}
             height={200}
           />
-          <h2>Sea Freight</h2>
+          <h2>Transporte Marítimo</h2>
           <p>
-            Optimize your international shipments with our flexible ocean
-            solutions. Full Container Load (FCL) or Less than Container Load
-            (LCL) for cost-effective global reach.
+            Envíos internacionales más rentables con nuestras soluciones
+            marítimas flexibles. Ofrecemos servicio de Contenedor Completo
+            (FCL), Flat racks y Carga Consolidada (LCL).
           </p>
         </article>
         <article className={services.column}>
@@ -73,23 +75,23 @@ export default function Home() {
             width={200}
             height={200}
           />
-          <h2>Air Freight</h2>
+          <h2>Transporte Aéreo</h2>
           <p>
-            For urgent or time-sensitive cargo, choose our expedited air
-            services. Fast, secure, and dependable transport to meet your tight
-            deadlines, worldwide.
+            La solución ideal para su carga urgente. Ofrecemos servicios aéreos
+            rápidos y seguros para cumplir sus plazos de entrega más estrictos
+            en cualquier destino del mundo.
           </p>
         </article>
       </section>
 
       <div className={features.container}>
         <div className={features.content}>
-          <h2>Trust Your Shipments to the Experts</h2>
+          <h2>Sus envíos en manos de expertos</h2>
           <p>
-            Our expertise is dedicated to connecting Mexican exporters with the
-            US market, ensuring your goods move smoothly, reliably, and without
-            hassle across the border. Partner with us for trusted logistics
-            solutions that drive your success.
+            Conectamos a exportadores de todo el mundo con el mercado de EE.UU.,
+            y contamos con especialización en el comercio transfronterizo con
+            México. Nos aseguramos de que su carga cruce la frontera sin
+            contratiempos y con la máxima fiabilidad.
           </p>
         </div>
       </div>
@@ -97,62 +99,67 @@ export default function Home() {
       <div className={milestones.cards}>
         <div className={milestones.card}>
           <h3>9000+</h3>
-          <p>Crates Shipped by Air and Road</p>
+          <p>Envíos por Aire y Tierra</p>
         </div>
         <div className={milestones.card}>
           <h3>600+</h3>
-          <p>Full containers shipped by sea</p>
+          <p>Contenedores completos por vía marítima</p>
         </div>
         <div className={milestones.card}>
           <h3>35000+</h3>
-          <p>Happy Clients</p>
+          <p>Clientes Satisfechos</p>
         </div>
       </div>
 
       <div className={why.container}>
         <div className={why.content}>
-          <h2>Why choose CTM?</h2>
+          <h2>¿Por qué elegir CTM?</h2>
 
           <ul>
             <li>
-              <strong>Integrated US & Mexico Expertise:</strong> With our Tucson
-              office, we provide a cohesive and streamlined logistics solution
-              that truly understands both sides of the border.
+              <strong>Experiencia Mexico-USA Integrada:</strong> Desde nuestra
+              oficina en Tucson, ofrecemos una solución logística integrada y
+              eficiente, con un profundo conocimiento de ambos lados de la
+              frontera.
             </li>
             <li>
-              <strong>FTZ 60 Specialization:</strong> Unlock significant cost
-              savings and operational efficiencies. We possess knowledge and
-              experience in managing cargo flow in and out of Foreign Trade Zone
-              60, ensuring compliance and maximizing your benefits
+              <strong>Especialización en Zona Franca (FTZ 60):</strong> Genere
+              importantes ahorros en costes y gane eficiencia operativa.
+              Contamos con la experiencia para gestionar el flujo de carga en la
+              Zona de Libre Comercio 60, garantizando el cumplimiento normativo
+              y maximizando sus beneficios.
+            </li>
+
+            <li>
+              <strong>Servicio Integral:</strong> Gestionamos todo el proceso de
+              envío, desde la recogida y carga hasta el despacho de aduanas y la
+              entrega final, simplificando la complejidad del transporte
+              internacional.
+            </li>
+
+            <li>
+              <strong>Enfoque en el Corredor Arizona-Sonora:</strong> Somos sus
+              expertos en esta arteria comercial vital. Nuestro conocimiento
+              local, red de contactos y experiencia directa se traducen en
+              tránsitos más rápidos, menos retrasos y un servicio más confiable
+              para sus envíos entre Sonora y Arizona.
             </li>
             <li>
-              <strong>Comprehensive Service:</strong> We manage the entire
-              shipping process, from collection and loading to customs clearance
-              and delivery, taking the complexity out of international
-              transport.
+              <strong>Soluciones de Puerta a Puerta:</strong> Desde la
+              coordinación del agenciamiento aduanal hasta el transporte y
+              almacenaje, gestionamos cada detalle de su cadena de suministro,
+              permitiéndole centrarse en su negocio principal.
             </li>
             <li>
-              <strong>Arizona-Sonora Corridor Focus:</strong> We are your
-              dedicated experts for this vital trade artery. Our local insights,
-              network, and direct experience mean faster transit, fewer delays,
-              and more reliable service for your shipments between Sonora and
-              Arizona.
-            </li>
-            <li>
-              <strong>End-to-End Solutions:</strong> From customs brokerage
-              coordination to efficient transportation and warehousing, we
-              manage every detail of your supply chain, allowing you to focus on
-              your core business.
-            </li>
-            <li>
-              <strong>Reliability & Transparency: </strong> Your cargo&apos;s journey
-              is our priority. We commit to clear communication, precise
-              execution, and dependable service every step of the way.
+              <strong>Confiabilidad y Transparencia:</strong> El recorrido de su
+              carga es nuestra prioridad. Nos comprometemos a una comunicación
+              clara, una ejecución precisa y un servicio fiable en cada paso del
+              proceso.
             </li>
           </ul>
 
           <button className={hero.button1}>
-            <Link href="contact">Talk to an expert</Link>
+            <Link href="contact">Hable con un experto</Link>
           </button>
         </div>
       </div>
@@ -255,18 +262,17 @@ export default function Home() {
 
       <div className={features.container}>
         <div className={features.content}>
-          <h2>shipping with confidence</h2>
+          <h2>Transporte con Confianza</h2>
           <p>
-            CTM Cargo Transportation Management LLC offers a complete suite of
-            logistics and freight forwarding services, ensuring seamless
-            movement of your goods, whether across the border or around the
-            globe. We provide tailored solutions backed by extensive experience
-            and a commitment to efficiency and reliability.
+            CTM Cargo Transportation Management LLC ofrece una gama completa de
+            servicios de logística y transporte internacional, garantizando el
+            movimiento fluido de sus mercancías, tanto a nivel transfronterizo
+            como global. Ofrecemos soluciones a la medida, respaldadas por una
+            amplia experiencia y nuestro compromiso con la eficiencia y la
+            confiabilidad.
           </p>
           <button className={buttons.button}>
-            <Link href="book">
-              Book now
-            </Link>
+            <Link href="book">Reservar Ahora</Link>
           </button>
         </div>
       </div>

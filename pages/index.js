@@ -28,9 +28,7 @@ export default function Home() {
             Arizona-Sonora corridor.
           </p>
           <button className={hero.button}>
-            <Link href="book">
-              Get started
-            </Link>
+            <Link href="book">Get started</Link>
           </button>
           <button className={hero.button1}>
             <Link href="contact">Talk to an expert</Link>
@@ -87,10 +85,11 @@ export default function Home() {
         <div className={features.content}>
           <h2>Trust Your Shipments to the Experts</h2>
           <p>
-            Our expertise is dedicated to connecting Mexican exporters with the
-            US market, ensuring your goods move smoothly, reliably, and without
-            hassle across the border. Partner with us for trusted logistics
-            solutions that drive your success.
+            We connect exporters from around the world with the US market, with
+            an unmatched specialization in the Mexico-US corridor, ensuring your
+            goods move smoothly, reliably, and without hassle across the border.
+            Partner with us for trusted logistics solutions that drive your
+            success.
           </p>
         </div>
       </div>
@@ -146,8 +145,8 @@ export default function Home() {
               your core business.
             </li>
             <li>
-              <strong>Reliability & Transparency: </strong> Your cargo&apos;s journey
-              is our priority. We commit to clear communication, precise
+              <strong>Reliability & Transparency: </strong> Your cargo&apos;s
+              journey is our priority. We commit to clear communication, precise
               execution, and dependable service every step of the way.
             </li>
           </ul>
@@ -265,9 +264,7 @@ export default function Home() {
             and a commitment to efficiency and reliability.
           </p>
           <button className={buttons.button}>
-            <Link href="book">
-              Book now
-            </Link>
+            <Link href="book">Book now</Link>
           </button>
         </div>
       </div>
