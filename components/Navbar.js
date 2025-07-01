@@ -99,7 +99,7 @@ const Navbar = () => {
               onClick={toggleLanguage}
               className="language-button"
             >
-              {isSpanish ? "EN" : "ES"}
+              {isSpanish ? "ENGLISH" : "ESPAÑOL"}
             </button>
           </div>
         </div>
