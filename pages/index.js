@@ -38,46 +38,49 @@ export default function Home() {
 
       <section className={services.columns}>
         <article className={services.column}>
-          <Image
-            src="/images/flatrack.png"
-            alt="Flatrack"
-            width={200}
-            height={200}
-          />
+         
           <h2>Road Freight</h2>
           <p>
             Ship your cargo confidently across the Arizona-Sonora corridor and
             beyond. Efficient, reliable, and tailored ground transport for all
             your goods.
           </p>
-        </article>
-        <article className={services.column}>
-          <Image
-            src="/images/cargoship.png"
-            alt="Ship"
+           <Image
+            src="/images/truck.png"
+            alt="Flatrack"
             width={200}
             height={200}
           />
+        </article>
+        <article className={services.column}>
+         
           <h2>Sea Freight</h2>
           <p>
             Optimize your international shipments with our flexible ocean
             solutions. Full Container Load (FCL) or Less than Container Load
             (LCL) for cost-effective global reach.
           </p>
-        </article>
-        <article className={services.column}>
-          <Image
-            src="/images/airplane.png"
-            alt="plane"
+           <Image
+            src="/images/ship.png"
+            alt="Ship"
             width={200}
             height={200}
           />
+        </article>
+        <article className={services.column}>
+        
           <h2>Air Freight</h2>
           <p>
             For urgent or time-sensitive cargo, choose our expedited air
             services. Fast, secure, and dependable transport to meet your tight
             deadlines, worldwide.
           </p>
+            <Image
+            src="/images/plane.png"
+            alt="plane"
+            width={200}
+            height={200}
+          />
         </article>
       </section>
 

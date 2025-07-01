@@ -1,14 +1,12 @@
-
-
 /*3 column content*/
 
 .columns {
   display: flex;
   flex-wrap: wrap; /* Allow columns to wrap */
-  background-color: #FFE8E5;
-  align-items: center;
-  padding: 3%;
-  text-align: center;
+  background-color: #ffe8e5;
+  align-items: stretch;
+  padding: 50px 100px;
+
   margin-bottom: 50px;
   font-size: 21px;
   gap: 1rem; /* Add space between columns */
@@ -16,13 +14,17 @@
 
 .column {
   flex: 1; /* Allow columns to grow equally */
-  margin: 1rem; /* Add spacing around columns */
+  padding: 20px 50px;
+  text-align: left;
+  min-width: 280px; /* <--- NEW: Prevents columns from shrinking too much and wrapping prematurely */
 }
 
 .column h2 {
   font-size: 30px;
   padding: 0px;
   padding-bottom: 30px;
+  position: relative;
+  margin-bottom: 0;
 }
 
 .column p {
@@ -30,14 +32,29 @@
 }
 
 .column img {
-  padding: 5px;
+  padding: 0px;
+  display: block; /* <--- NEW: Makes the image a block-level element */
+  margin: 0 auto; /* <--- NEW: Centers the block-level image horizontally within its parent */
+}
+
+/* The line below the headline */
+.column h2::after {
+  content: ""; /* Required for pseudo-elements */
+  display: block; /* Makes the line a block element */
+  width: 400px; /* Adjust this value to control the length of the line */
+  height: 2px; /* Adjust this value for the thickness of the line */
+  background-color: #333; /* Color of the line - matching your text color is a good choice */
+  margin: 8px 0 0 0; /* Creates space: 8px between H2 text and line, auto for horizontal centering, 0 below */
 }
 
 /*3 column content responsive*/
 
 @media screen and (max-width: 980px) {
   .columns {
-    margin-top: 5px;
+    /* Adjust padding for smaller screens if needed, otherwise it will still be 100px */
+    padding-left: 50px; /* Example: Reduce side padding to 50px for this breakpoint */
+    padding-right: 50px; /* Example: Reduce side padding to 50px for this breakpoint */
+    margin-top: 5px; /* Keep this if you need a specific top margin here */
   }
 }
 
@@ -45,9 +62,17 @@
   .columns {
     flex-direction: column;
     font-size: 21px;
+    margin: 0; /* Ensures no external margin when stacked */
+    padding: 20px 15px; /* <--- NEW: Adjust padding for stacked layout (e.g., 15px side padding) */
+    /* margin-bottom: 50px; (Add if section needs specific space below when stacked) */
   }
 
   .column {
     padding: 15px;
+    margin: 0; /* <--- NEW: No margins needed on individual columns when stacked */
+    margin-bottom: 1rem; /* Add vertical space between stacked columns */
+  }
+  .column h2::after {
+    width: 300px; /* Set the width for mobile phones */
   }
 }

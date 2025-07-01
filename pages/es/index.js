@@ -41,46 +41,36 @@ export default function Home() {
 
       <section className={services.columns}>
         <article className={services.column}>
-          <Image
-            src="/images/flatrack.png"
-            alt="Flatrack"
-            width={200}
-            height={200}
-          />
           <h2>Transporte Terrestre</h2>
           <p>
             Transporte su carga con total confianza a través del corredor
             Arizona-Sonora y más allá. Ofrecemos un servicio de transporte
             terrestre eficiente, confiable y personalizado para su carga.
           </p>
-        </article>
-        <article className={services.column}>
           <Image
-            src="/images/cargoship.png"
-            alt="Ship"
+            src="/images/truck.png"
+            alt="Flatrack"
             width={200}
             height={200}
           />
+        </article>
+        <article className={services.column}>
           <h2>Transporte Marítimo</h2>
           <p>
             Envíos internacionales más rentables con nuestras soluciones
             marítimas flexibles. Ofrecemos servicio de Contenedor Completo
             (FCL), Flat racks y Carga Consolidada (LCL).
           </p>
+          <Image src="/images/ship.png" alt="Ship" width={200} height={200} />
         </article>
         <article className={services.column}>
-          <Image
-            src="/images/airplane.png"
-            alt="plane"
-            width={200}
-            height={200}
-          />
           <h2>Transporte Aéreo</h2>
           <p>
             La solución ideal para su carga urgente. Ofrecemos servicios aéreos
             rápidos y seguros para cumplir sus plazos de entrega más estrictos
             en cualquier destino del mundo.
           </p>
+          <Image src="/images/plane.png" alt="plane" width={200} height={200} />
         </article>
       </section>
 
@@ -126,8 +116,8 @@ export default function Home() {
               <strong>Especialización en Zona Franca (FTZ 60):</strong> Genere
               importantes ahorros en costes y gane eficiencia operativa.
               Contamos con la experiencia para gestionar el flujo de carga en la
-              Zona de Libre Comercio FTZ 60, garantizando el cumplimiento normativo
-              y maximizando sus beneficios.
+              Zona de Libre Comercio FTZ 60, garantizando el cumplimiento
+              normativo y maximizando sus beneficios.
             </li>
 
             <li>

@@ -64,7 +64,7 @@ export default function Services() {
         </div>
         <div className="image">
           <Image
-            src="/images/flatrack.png"
+            src="/images/truck.png"
             alt="Flat rack"
             width={300}
             height={300}
@@ -100,7 +100,7 @@ export default function Services() {
         </div>
         <div className="image">
           <Image
-            src="/images/cargoship.png"
+            src="/images/ship.png"
             alt="Container ship"
             width={300}
             height={300}
@@ -138,7 +138,7 @@ export default function Services() {
         </div>
         <div className="image">
           <Image
-            src="/images/airplane.png"
+            src="/images/plane.png"
             alt="Cargo plane"
             width={300}
             height={300}
