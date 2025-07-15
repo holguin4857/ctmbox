@@ -30,10 +30,10 @@ export default function Home() {
             Su aliado estrategico para el comercio internacional por el corredor
             Arizona-Sonora.
           </p>
-          <button className={hero.button}>
+          <button className={buttons.button}>
             <Link href="book">Reservar Ahora</Link>
           </button>
-          <button className={hero.button1}>
+          <button className={buttons.button1}>
             <Link href="contact">Hable con un experto</Link>
           </button>
         </div>
@@ -132,7 +132,7 @@ export default function Home() {
             </li>
           </ul>
 
-          <button className={hero.button1}>
+          <button className={buttons.button1}>
             <Link href="contact">Hable con un experto</Link>
           </button>
         </div>

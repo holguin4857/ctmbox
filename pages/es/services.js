@@ -4,6 +4,7 @@ import Image from "next/image";
 import hero from "../../styles/hero.module.css";
 import features from "../../styles/features.module.css";
 import milestones from "../../styles/milestones.module.css";
+import buttons from "../styles/buttons.module.css";
 
 export default function Services() {
   return (
@@ -23,12 +24,12 @@ export default function Services() {
             En CTM Cargo Transportation Management LLC, ofrecemos una gama
             completa de soluciones logísticas diseñadas para satisfacer las
             diversas necesidades de su negocio. Desde el transporte terrestre
-            transfronterizo hasta envíos marítimos globales, nuestro
-            equipo experto garantiza que su carga sea entregada de forma
-            eficiente, segura y puntual.
+            transfronterizo hasta envíos marítimos globales, nuestro equipo
+            experto garantiza que su carga sea entregada de forma eficiente,
+            segura y puntual.
           </p>
 
-          <button className={hero.button1}>
+          <button className={buttons.button1}>
             <Link href="contact">Hable con un experto</Link>
           </button>
         </div>
@@ -110,8 +111,6 @@ export default function Services() {
         </div>
       </div>
 
-     
-
       <div className={milestones.cards}>
         <div className={milestones.card}>
           <h3>9000+</h3>
@@ -138,7 +137,7 @@ export default function Services() {
             amplia experiencia y nuestro compromiso con la eficiencia y la
             confiabilidad.
           </p>
-          <button className={hero.button}>
+          <button className={buttons.button}>
             <Link href="book">Reservar Ahora</Link>
           </button>
         </div>

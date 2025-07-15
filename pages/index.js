@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
 import hero from "../styles/hero.module.css";
 import features from "../styles/features.module.css";
 import testimonials from "../styles/testimonials.module.css";
@@ -27,10 +26,10 @@ export default function Home() {
             Your trusted partner for seamless US-Mexico trade in the
             Arizona-Sonora corridor.
           </p>
-          <button className={hero.button}>
+          <button className={buttons.button}>
             <Link href="book">Get started</Link>
           </button>
-          <button className={hero.button1}>
+          <button className={buttons.button1}>
             <Link href="contact">Talk to an expert</Link>
           </button>
         </div>
@@ -130,7 +129,7 @@ export default function Home() {
             </li>
           </ul>
 
-          <button className={hero.button1}>
+          <button className={buttons.button1}>
             <Link href="contact">Talk to an expert</Link>
           </button>
         </div>

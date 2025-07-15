@@ -4,6 +4,7 @@ import Image from "next/image";
 import hero from "../styles/hero.module.css";
 import features from "../styles/features.module.css";
 import milestones from "../styles/milestones.module.css";
+import buttons from "../styles/buttons.module.css";
 
 export default function Services() {
   return (
@@ -27,7 +28,7 @@ export default function Services() {
             efficiently, securely, and on time.
           </p>
 
-          <button className={hero.button1}>
+          <button className={buttons.button1}>
             <Link href="contact">Talk to an expert</Link>
           </button>
         </div>
@@ -50,13 +51,12 @@ export default function Services() {
             cost-effective shipments.
           </p>
           <p>
-            Leveraging our extensive network and Rogelio Romo hands-on
-            experience as a trucking company owner, we ensure secure,
-            door-to-door delivery. We manage all aspects of ground
-            transportation, including efficient border crossing procedures,
-            comprehensive cargo security, and, where applicable, real-time
-            tracking to provide you with complete visibility and peace of mind
-            from pickup to final destination.
+            Leveraging our extensive network and hands-on experience as trucking
+            company owners, we ensure secure, door-to-door delivery. We manage
+            all aspects of ground transportation, including efficient border
+            crossing procedures, comprehensive cargo security, and, where
+            applicable, real-time tracking to provide you with complete
+            visibility and peace of mind from pickup to final destination.
           </p>
         </div>
         <div className="image">
@@ -132,7 +132,7 @@ export default function Services() {
             globe. We provide tailored solutions backed by extensive experience
             and a commitment to efficiency and reliability.
           </p>
-          <button className={hero.button}>
+          <button className={buttons.button}>
             <Link href="book">Book now</Link>
           </button>
         </div>

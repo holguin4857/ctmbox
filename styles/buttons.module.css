@@ -1,27 +1,56 @@
 .button {
-    background-color: #FF7F65;
-    width: 300px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px 5px 5px 5px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  
-  .button1 {
-    background-color:rgb(1, 1, 1);
-    width: 300px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px 5px 5px 5px;
-    font-size: 22px;
-    cursor: pointer;
-  }
+  display: inline-block;
+  width: 300px;
+  padding: 15px 32px;
+  margin: 5px;
+  background-color: #ff7f65; /* Coral */
+  color: white;
+  border: none;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.2s ease; /* Added for smooth hover */
+}
+
+.button:hover {
+  filter: brightness(115%); /* Added hover effect */
+}
+
+.button1 {
+  display: inline-block;
+  width: 300px;
+  padding: 15px 32px;
+  margin: 5px;
+  background-color: #1a1a1a; /* Dark */
+  color: white;
+  border: none;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.2s ease; /* Added for smooth hover */
+}
+
+.button1:hover {
+  filter: brightness(115%); /* Added hover effect */
+}
+
+.readMore {
+  display: inline-block;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 12px 25px;
+  margin-top: 1.5em;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.readMore:hover {
+  background-color: #333333;
+}
