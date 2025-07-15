@@ -22,9 +22,9 @@ export default function Services() {
           <p>
             At CTM Cargo Transportation Management LLC, we provide a full
             spectrum of logistics solutions designed to meet the diverse needs
-            of your business. From cross-border ground transport to global air
-            and sea shipments, our experienced team ensures your cargo is
-            delivered efficiently, securely, and on time.
+            of your business. From cross-border ground transport to global sea
+            shipments, our experienced team ensures your cargo is delivered
+            efficiently, securely, and on time.
           </p>
 
           <button className={hero.button1}>
@@ -107,46 +107,10 @@ export default function Services() {
         </div>
       </div>
 
-      <div className={features.container}>
-        <div className={features.content}>
-          <h2>Air freight</h2>
-          <p>
-            <strong>
-              For urgent or time-sensitive cargo, choose our expedited air
-              services.
-            </strong>{" "}
-            When speed and reliability are paramount, our air freight services
-            provide the fastest possible transit times for your critical
-            shipments. Designed for urgent, high-value, or time-sensitive cargo,
-            we offer expedited solutions that ensure your goods meet the
-            tightest deadlines, worldwide.
-          </p>
-          <p>
-            Leveraging a robust network of global airline partners, we provide
-            secure and dependable transport for everything from spare parts and
-            essential components to high-value goods and perishable items. Our
-            team manages all aspects of air cargo logistics, including swift
-            customs clearance, meticulous handling, and precise scheduling,
-            guaranteeing that your valuable cargo arrives at its destination
-            quickly and safely, minimizing downtime for your operations.
-          </p>
-        </div>
-        <div className="image">
-          <Image
-            src="/images/plane.png"
-            alt="Cargo plane"
-            width={300}
-            height={300}
-            placeholder="blur"
-            blurDataURL="/images/airplane.png"
-          />
-        </div>
-      </div>
-
       <div className={milestones.cards}>
         <div className={milestones.card}>
           <h3>9000+</h3>
-          <p>Crates Shipped by Air and Road</p>
+          <p>Shipments by Road</p>
         </div>
         <div className={milestones.card}>
           <h3>600+</h3>
@@ -169,9 +133,7 @@ export default function Services() {
             and a commitment to efficiency and reliability.
           </p>
           <button className={hero.button}>
-            <Link href="book">
-              Book now
-            </Link>
+            <Link href="book">Book now</Link>
           </button>
         </div>
       </section>

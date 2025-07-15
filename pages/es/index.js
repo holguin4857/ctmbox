@@ -47,12 +47,6 @@ export default function Home() {
             Arizona-Sonora y más allá. Ofrecemos un servicio de transporte
             terrestre eficiente, confiable y personalizado para su carga.
           </p>
-          <Image
-            src="/images/truck.png"
-            alt="Flatrack"
-            width={200}
-            height={200}
-          />
         </article>
         <article className={services.column}>
           <h2>Transporte Marítimo</h2>
@@ -61,16 +55,6 @@ export default function Home() {
             marítimas flexibles. Ofrecemos servicio de Contenedor Completo
             (FCL), Flat racks y Carga Consolidada (LCL).
           </p>
-          <Image src="/images/ship.png" alt="Ship" width={200} height={200} />
-        </article>
-        <article className={services.column}>
-          <h2>Transporte Aéreo</h2>
-          <p>
-            La solución ideal para su carga urgente. Ofrecemos servicios aéreos
-            rápidos y seguros para cumplir sus plazos de entrega más estrictos
-            en cualquier destino del mundo.
-          </p>
-          <Image src="/images/plane.png" alt="plane" width={200} height={200} />
         </article>
       </section>
 
@@ -89,11 +73,11 @@ export default function Home() {
       <div className={milestones.cards}>
         <div className={milestones.card}>
           <h3>9000+</h3>
-          <p>Envíos por Aire y Tierra</p>
+          <p>Envíos por Tierra</p>
         </div>
         <div className={milestones.card}>
           <h3>600+</h3>
-          <p>Contenedores completos por vía marítima</p>
+          <p>FCL Contenedores vía Marítima</p>
         </div>
         <div className={milestones.card}>
           <h3>35000+</h3>

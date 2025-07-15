@@ -23,7 +23,7 @@ export default function Services() {
             En CTM Cargo Transportation Management LLC, ofrecemos una gama
             completa de soluciones logísticas diseñadas para satisfacer las
             diversas necesidades de su negocio. Desde el transporte terrestre
-            transfronterizo hasta envíos aéreos y marítimos globales, nuestro
+            transfronterizo hasta envíos marítimos globales, nuestro
             equipo experto garantiza que su carga sea entregada de forma
             eficiente, segura y puntual.
           </p>
@@ -110,43 +110,7 @@ export default function Services() {
         </div>
       </div>
 
-      <div className={features.container}>
-        <div className={features.content}>
-          <h2>Transporte Aéreo</h2>
-          <p>
-            <strong>
-              Para su carga urgente, elija nuestros servicios aéreos.
-            </strong>{" "}
-            Cuando la velocidad y la fiabilidad son primordiales, nuestros
-            servicios de transporte aéreo ofrecen los tiempos de tránsito más
-            rápidos posibles para sus envíos críticos. Diseñadas para carga
-            urgente, de alto valor o sensible al tiempo, nuestras soluciones
-            prioritarias aseguran que sus mercancías cumplan con los plazos más
-            exigentes, a nivel mundial.
-          </p>
-          <p>
-            Apoyados en una sólida red de aerolíneas asociadas, proporcionamos
-            un transporte seguro y confiable para todo tipo de mercancía, desde
-            piezas de repuesto y componentes esenciales hasta bienes de alto
-            valor y productos perecederos. Nuestro equipo gestiona todos los
-            aspectos de la logística de carga aérea, incluyendo un rápido
-            despacho de aduanas, una manipulación meticulosa y una programación
-            precisa, garantizando que su valiosa carga llegue a su destino de
-            forma rápida y segura, minimizando el tiempo de inactividad de sus
-            operaciones.
-          </p>
-        </div>
-        <div className="image">
-          <Image
-            src="/images/plane.png"
-            alt="Cargo plane"
-            width={300}
-            height={300}
-            placeholder="blur"
-            blurDataURL="/images/airplane.png"
-          />
-        </div>
-      </div>
+     
 
       <div className={milestones.cards}>
         <div className={milestones.card}>

@@ -45,12 +45,7 @@ export default function Home() {
             beyond. Efficient, reliable, and tailored ground transport for all
             your goods.
           </p>
-           <Image
-            src="/images/truck.png"
-            alt="Flatrack"
-            width={200}
-            height={200}
-          />
+          
         </article>
         <article className={services.column}>
          
@@ -60,28 +55,9 @@ export default function Home() {
             solutions. Full Container Load (FCL) or Less than Container Load
             (LCL) for cost-effective global reach.
           </p>
-           <Image
-            src="/images/ship.png"
-            alt="Ship"
-            width={200}
-            height={200}
-          />
-        </article>
-        <article className={services.column}>
         
-          <h2>Air Freight</h2>
-          <p>
-            For urgent or time-sensitive cargo, choose our expedited air
-            services. Fast, secure, and dependable transport to meet your tight
-            deadlines, worldwide.
-          </p>
-            <Image
-            src="/images/plane.png"
-            alt="plane"
-            width={200}
-            height={200}
-          />
         </article>
+        
       </section>
 
       <div className={features.container}>
@@ -100,11 +76,11 @@ export default function Home() {
       <div className={milestones.cards}>
         <div className={milestones.card}>
           <h3>9000+</h3>
-          <p>Crates Shipped by Air and Road</p>
+          <p>Shipments by Road</p>
         </div>
         <div className={milestones.card}>
           <h3>600+</h3>
-          <p>Full containers shipped by sea</p>
+          <p>FCL containers shipped by Sea</p>
         </div>
         <div className={milestones.card}>
           <h3>35000+</h3>

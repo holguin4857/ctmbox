@@ -41,10 +41,10 @@
 .column h2::after {
   content: ""; /* Required for pseudo-elements */
   display: block; /* Makes the line a block element */
-  width: 400px; /* Adjust this value to control the length of the line */
+  width: 100%; /* CHANGE: Use 100% to fill the available width */
   height: 2px; /* Adjust this value for the thickness of the line */
   background-color: #333; /* Color of the line - matching your text color is a good choice */
-  margin: 8px 0 0 0; /* Creates space: 8px between H2 text and line, auto for horizontal centering, 0 below */
+  margin: 8px 0 0 0; /* Creates space: 8px between H2 text and line, 0 below */
 }
 
 /*3 column content responsive*/
@@ -73,6 +73,6 @@
     margin-bottom: 1rem; /* Add vertical space between stacked columns */
   }
   .column h2::after {
-    width: 300px; /* Set the width for mobile phones */
+    width: 100%; /* Set the width for mobile phones */
   }
 }
