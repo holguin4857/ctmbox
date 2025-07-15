@@ -4,7 +4,7 @@ import Image from "next/image";
 import hero from "../../styles/hero.module.css";
 import features from "../../styles/features.module.css";
 import milestones from "../../styles/milestones.module.css";
-import buttons from "../styles/buttons.module.css";
+import buttons from "../../styles/buttons.module.css";
 
 export default function Services() {
   return (
