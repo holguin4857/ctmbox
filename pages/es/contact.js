@@ -37,18 +37,24 @@ export default function Contact() {
             ZIP 85713
           </p>
           <p>
-            <strong>Teléfonos:</strong>
+            <strong>Tel:</strong>
             <br />
-            +1-520-358-9236, +1-480-318-7397{" "}
+            +1-520-352-7255 <br />
+            Llámenos y seleccione su idioma de preferencia. Para Inglés,
+            presione 1. Para Español, presione 2.
           </p>
+
           <p>
-            <strong>Correo electrónico:</strong>
+            <strong>Email:</strong>
             <br />
             Para consultas generales y servicios de transporte terrestre:
-            <br />- Rogelio Romo: <strong>rogelio@ctmbox.com</strong>
             <br />
+            Rogelio Romo: <strong>roy@ctmbox.com</strong>
+          </p>
+          <p>
             Para transporte de carga internacional y otras consultas:
-            <br />- Omar Holguin: <strong>omar@ctmbox.com</strong>
+            <br />
+            Omar Holguin: <strong>omar@ctmbox.com</strong>
           </p>
 
           <p></p>
