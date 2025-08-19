@@ -32,14 +32,16 @@ export default function Contact() {
             Evans Blvd. Tucson, AZ ZIP 85713
           </p>
           <p>
-            <strong>Tels:</strong><br />+1-520-358-9236, +1-480-318-7397{" "}
+            <strong>Tel:</strong><br />+1-520-352-7255{" "}<br />
+            Call us and select your preferred language. For English, press 1, Para Español, oprima 2.
           </p>
+          
           <p>
             <strong>Email:</strong><br />
             For general enquiries and trucking services:<br />
-            - Rogelio Romo: <strong>rogelio@ctmbox.com</strong><br />
-            For international freight forwarding and other inquiries:<br />
-            - Omar Holguin: <strong>omar@ctmbox.com</strong>
+            Rogelio Romo: <strong>roy@ctmbox.com</strong></p>
+            <p>For international freight forwarding and other inquiries:<br />
+            Omar Holguin: <strong>omar@ctmbox.com</strong>
           </p>
          
           <p></p>
