@@ -1,3 +1,7 @@
+.buttonContainer {
+  margin-top: 20px; /* Optional: adds some space above the buttons */
+}
+
 .button {
   display: inline-block;
   width: 300px;
@@ -53,4 +57,10 @@
 
 .readMore:hover {
   background-color: #333333;
+}
+
+@media screen and (max-width: 600px) {
+  .buttonContainer {
+    text-align: center;
+  }
 }

@@ -7,8 +7,11 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>CTM Contact</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>Contact CTM for a Free Shipping Quote</title>
+        <meta
+          name="description"
+          content="Ready to ship? Contact the experts at CTM today for a free quote on your cross-border road or sea freight needs. Let&apos;s simplify your logistics."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -24,33 +27,44 @@ export default function Contact() {
             the table, we are perfectly positioned to manage your freight
             requirements, from local and cross-border trucking to comprehensive
             international freight forwarding.
-            <strong> Get in touch! </strong> We are ready to answer your questions and provide you with a customized quote.
+            <strong> Get in touch! </strong> We are ready to answer your
+            questions and provide you with a customized quote.
           </p>
-          
+
           <p>
-            <strong>Address:</strong><br />Cargo Transportation Management LLC, 791 E
-            Evans Blvd. Tucson, AZ ZIP 85713
+            <strong>Address:</strong>
+            <br />
+            Cargo Transportation Management LLC, 791 E Evans Blvd. Tucson, AZ
+            ZIP 85713
           </p>
           <p>
-            <strong>Tel:</strong><br />+1-520-352-7255{" "}<br />
-            Call us and select your preferred language. For English, press 1, Para Español, oprima 2.
+            <strong>Tel:</strong>
+            <br />
+            +1-520-352-7255 <br />
+            Call us and select your preferred language. For English, press 1,
+            Para Español, oprima 2.
           </p>
-          
+
           <p>
-            <strong>Email:</strong><br />
-            For general enquiries and trucking services:<br />
-            Rogelio Romo: <strong>roy@ctmbox.com</strong></p>
-            <p>For international freight forwarding and other inquiries:<br />
+            <strong>Email:</strong>
+            <br />
+            For general enquiries and trucking services:
+            <br />
+            Rogelio Romo: <strong>roy@ctmbox.com</strong>
+          </p>
+          <p>
+            For international freight forwarding and other inquiries:
+            <br />
             Omar Holguin: <strong>omar@ctmbox.com</strong>
           </p>
-         
+
           <p></p>
 
-          <button className={buttons.button}>
-            <Link href="book">
-              Book now
-            </Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="book">Book now</Link>
+            </button>
+          </div>
         </div>
       </section>
     </>

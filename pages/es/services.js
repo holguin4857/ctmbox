@@ -10,8 +10,11 @@ export default function Services() {
   return (
     <>
       <Head>
-        <title>CTM Services</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>Servicios de Transporte Terrestre y Marítimo | CTM</title>
+        <meta
+          name="description"
+          content="Explore los servicios de logística confiables de CTM, incluyendo transporte terrestre en el corredor Sonora-Arizona y soluciones globales de carga marítima (FCL y LCL)."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -29,9 +32,11 @@ export default function Services() {
             segura y puntual.
           </p>
 
-          <button className={buttons.button1}>
-            <Link href="contact">Hable con un experto</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button1}>
+              <Link href="contact">Hable con un experto</Link>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -137,9 +142,13 @@ export default function Services() {
             amplia experiencia y nuestro compromiso con la eficiencia y la
             confiabilidad.
           </p>
-          <button className={buttons.button}>
-            <Link href="book">Reservar Ahora</Link>
-          </button>
+
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="book">Reservar Ahora</Link>
+            </button>
+          </div>
+          
         </div>
       </section>
     </>

@@ -10,8 +10,11 @@ export default function Book() {
   return (
     <>
       <Head>
-        <title>CTM Book</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>Book Your US-Mexico Shipment | CTM</title>
+        <meta
+          name="description"
+          content="Ready to ship? Use our easy booking form to schedule your road or sea freight between the US and Mexico. Get a fast, reliable quote from the experts at CTM."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -39,17 +42,19 @@ export default function Book() {
             It combines your styles with the required 'involveme_popup' class
             and includes the necessary data attributes for the script.
           */}
-          <button
-            className={`${buttons.button} involveme_popup`}
-            data-project="CTM-quote"
-            data-embed-mode="popup"
-            data-trigger-event="button"
-            data-popup-size="medium"
-            data-organization-url="https://trexco.involve.me"
-            data-title="CTM Quote"
-          >
-            Book Now
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button
+              className={`${buttons.button} involveme_popup`}
+              data-project="CTM-quote"
+              data-embed-mode="popup"
+              data-trigger-event="button"
+              data-popup-size="medium"
+              data-organization-url="https://trexco.involve.me"
+              data-title="CTM Quote"
+            >
+              Book Now
+            </button>
+          </div>
         </div>
       </section>
 

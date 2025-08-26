@@ -10,8 +10,11 @@ export default function Services() {
   return (
     <>
       <Head>
-        <title>CTM Services</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>Road & Sea Freight Forwarding Services | CTM</title>
+        <meta
+          name="description"
+          content="Explore CTM&apos;s reliable logistics services, including road freight across the Arizona-Sonora corridor and global sea freight solutions (FCL & LCL)."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -28,9 +31,11 @@ export default function Services() {
             efficiently, securely, and on time.
           </p>
 
-          <button className={buttons.button1}>
-            <Link href="contact">Talk to an expert</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button1}>
+              <Link href="contact">Talk to an expert</Link>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -132,9 +137,11 @@ export default function Services() {
             globe. We provide tailored solutions backed by extensive experience
             and a commitment to efficiency and reliability.
           </p>
-          <button className={buttons.button}>
-            <Link href="book">Book now</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="book">Book now</Link>
+            </button>
+          </div>
         </div>
       </section>
     </>

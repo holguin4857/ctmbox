@@ -1,15 +1,17 @@
 /* Hero content */
+
+/* The main container for the section */
 .container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1% 1%;
-  margin: 50px 100px 50px 100px;
-  max-width: 100%;
+  max-width: 1800px;
+  margin: 50px auto; /* Centers the whole block on the page */
+  padding: 0 100px; /* Adds breathing room */
+  display: flex; /* Use flexbox for robust alignment */
 }
 
+/* The content block with text and buttons */
 .content {
-  margin: 15px;
+  width: 100%; /* Make the content fill the container */
+  text-align: left; /* Forcefully align all text inside to the left */
 }
 
 .content h1 {
@@ -28,7 +30,7 @@
 }
 
 .button {
-  background-color: #FF7F65;
+  background-color: #ff7f65;
   width: 300px;
   border: none;
   color: white;
@@ -42,7 +44,7 @@
 }
 
 .button1 {
-  background-color:rgb(5, 6, 6);
+  background-color: rgb(5, 6, 6);
   width: 300px;
   border: none;
   color: white;
@@ -71,6 +73,7 @@
   .container {
     flex-direction: column;
     margin: 0px 0px 50px 0px;
+    padding: 0 24px;
   }
 
   .image {

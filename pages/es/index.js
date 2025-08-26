@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>CTM Cargo Transportation Management</title>
+        <title>Logística Transfronteriza México-EE.UU. | CTM</title>
         <meta
           name="description"
-          content="Simplificamos su logística transfronteriza. Expertos en envíos entre EE.UU. y México a través del corredor Arizona-Sonora. Su carga segura y a tiempo."
+          content="CTM simplifica el comercio entre México y EE.UU. con servicios expertos de transporte terrestre y marítimo en el corredor Sonora-Arizona. ¡Cotice hoy!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -30,12 +30,14 @@ export default function Home() {
             Su aliado estrategico para el comercio internacional por el corredor
             Arizona-Sonora.
           </p>
-          <button className={buttons.button}>
-            <Link href="book">Reservar Ahora</Link>
-          </button>
-          <button className={buttons.button1}>
-            <Link href="contact">Hable con un experto</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="book">Reservar Ahora</Link>
+            </button>
+            <button className={buttons.button1}>
+              <Link href="contact">Hable con un experto</Link>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -132,9 +134,11 @@ export default function Home() {
             </li>
           </ul>
 
-          <button className={buttons.button1}>
-            <Link href="contact">Hable con un experto</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button1}>
+              <Link href="contact">Hable con un experto</Link>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -245,9 +249,11 @@ export default function Home() {
             amplia experiencia y nuestro compromiso con la eficiencia y la
             confiabilidad.
           </p>
-          <button className={buttons.button}>
-            <Link href="book">Reservar Ahora</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="book">Reservar Ahora</Link>
+            </button>
+          </div>
         </div>
       </div>
     </>

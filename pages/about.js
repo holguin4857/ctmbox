@@ -8,8 +8,11 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>CTM About</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>About CTM | Your Cross-Border Logistics Experts</title>
+        <meta
+          name="description"
+          content="Learn about Cargo Transportation Management (CTM), your dedicated partner for simplifying trade and shipping between Sonora, Mexico, and Arizona, USA."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -26,7 +29,9 @@ export default function About() {
           </p>
         </div>
       </section>
+
       <div className={about.container}>
+        
         <div className={about.image}>
           <Image
             src="/images/romo.jpeg"
@@ -37,6 +42,7 @@ export default function About() {
             blurDataURL="/images/romo.jpeg"
           />
         </div>
+
         <div className={about.contentimage}>
           <p>
             <strong>Rogelio Romo: </strong>Bringing over 15 years of extensive
@@ -57,7 +63,9 @@ export default function About() {
           </p>
         </div>
       </div>
+
       <div className={about.container}>
+
         <div className={about.image}>
           <Image
             src="/images/holguin.png"
@@ -68,6 +76,7 @@ export default function About() {
             blurDataURL="/images/holguin.png"
           />
         </div>
+        
         <div className={about.content}>
           <p>
             <strong>Omar Holguin: </strong>Omar brings a robust international
@@ -99,12 +108,14 @@ export default function About() {
             advantage.{" "}
           </p>
 
-          <button className={buttons.button}>
-            <Link href="contact">Talk to an expert</Link>
-          </button>
-          <button className={buttons.button1}>
-            <Link href="book">Get started</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="book">Get started</Link>
+            </button>
+            <button className={buttons.button1}>
+              <Link href="contact">Talk to an expert</Link>
+            </button>
+          </div>
         </div>
       </section>
     </>

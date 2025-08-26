@@ -12,8 +12,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cargo Transportation Management</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>Cross-Border Logistics for US-Mexico Trade | CTM</title>
+        <meta
+          name="description"
+          content="CTM simplifies US-Mexico trade with expert road and sea freight services in the Arizona-Sonora corridor. Your trusted logistics partner. Get a quote today!"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -26,37 +29,35 @@ export default function Home() {
             Your trusted partner for seamless US-Mexico trade in the
             Arizona-Sonora corridor.
           </p>
-          <button className={buttons.button}>
-            <Link href="book">Get started</Link>
-          </button>
-          <button className={buttons.button1}>
-            <Link href="contact">Talk to an expert</Link>
-          </button>
+
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="book">Get started</Link>
+            </button>
+            <button className={buttons.button1}>
+              <Link href="contact">Talk to an expert</Link>
+            </button>
+          </div>
         </div>
       </div>
 
       <section className={services.columns}>
         <article className={services.column}>
-         
           <h2>Road Freight</h2>
           <p>
             Ship your cargo confidently across the Arizona-Sonora corridor and
             beyond. Efficient, reliable, and tailored ground transport for all
             your goods.
           </p>
-          
         </article>
         <article className={services.column}>
-         
           <h2>Sea Freight</h2>
           <p>
             Optimize your international shipments with our flexible ocean
             solutions. Full Container Load (FCL) or Less than Container Load
             (LCL) for cost-effective global reach.
           </p>
-        
         </article>
-        
       </section>
 
       <div className={features.container}>
@@ -129,9 +130,11 @@ export default function Home() {
             </li>
           </ul>
 
-          <button className={buttons.button1}>
-            <Link href="contact">Talk to an expert</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button1}>
+              <Link href="contact">Talk to an expert</Link>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -241,9 +244,11 @@ export default function Home() {
             globe. We provide tailored solutions backed by extensive experience
             and a commitment to efficiency and reliability.
           </p>
-          <button className={buttons.button}>
-            <Link href="book">Book now</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="book">Book now</Link>
+            </button>
+          </div>
         </div>
       </div>
     </>

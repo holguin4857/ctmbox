@@ -7,8 +7,11 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>CTM Contact</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>Contacte a CTM para una Cotización de Envío Gratis</title>
+        <meta
+          name="description"
+          content="¿Listo para enviar? Contacte a los expertos de CTM hoy para una cotización gratis de sus necesidades de logística transfronteriza."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -59,9 +62,12 @@ export default function Contact() {
 
           <p></p>
 
-          <button className={buttons.button}>
-            <Link href="book">Reservar ahora</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="book">Reservar ahora</Link>
+            </button>
+          </div>
+          
         </div>
       </section>
     </>

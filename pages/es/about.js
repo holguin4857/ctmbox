@@ -8,8 +8,11 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>CTM About</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>Sobre CTM | Sus Expertos en Logística Transfronteriza</title>
+        <meta
+          name="description"
+          content="Conozca más sobre Cargo Transportation Management (CTM), su socio dedicado para simplificar el comercio y los envíos entre Sonora, México y Arizona, EE.UU."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,7 +30,9 @@ export default function About() {
           </p>
         </div>
       </section>
+
       <div className={about.container}>
+
         <div className={about.image}>
           <Image
             src="/images/romo.jpeg"
@@ -38,6 +43,7 @@ export default function About() {
             blurDataURL="/images/romo.jpeg"
           />
         </div>
+
         <div className={about.contentimage}>
           <p>
             <strong>Rogelio Romo: </strong>Rogelio aporta a CTM Cargo
@@ -60,7 +66,9 @@ export default function About() {
           </p>
         </div>
       </div>
+
       <div className={about.container}>
+        
         <div className={about.image}>
           <Image
             src="/images/holguin.png"
@@ -71,6 +79,7 @@ export default function About() {
             blurDataURL="/images/holguin.png"
           />
         </div>
+        
         <div className={about.content}>
           <p>
             <strong>Omar Holguin: </strong>Omar aporta a nuestro equipo una
@@ -105,12 +114,14 @@ export default function About() {
             obtenga el máximo beneficio.{" "}
           </p>
 
-          <button className={buttons.button}>
-            <Link href="contact">Hable con un experto</Link>
-          </button>
-          <button className={buttons.button1}>
-            <Link href="book">Reservar Ahora</Link>
-          </button>
+          <div className={buttons.buttonContainer}>
+            <button className={buttons.button}>
+              <Link href="contact">Hable con un experto</Link>
+            </button>
+            <button className={buttons.button1}>
+              <Link href="book">Reservar Ahora</Link>
+            </button>
+          </div>
         </div>
       </section>
     </>
