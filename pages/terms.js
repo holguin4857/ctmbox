@@ -5,442 +5,266 @@ export default function Terms() {
   return (
     <>
       <Head>
-        <title>CTM Terms</title>
-        <meta name="description" content="the easy way to ship" />
+        <title>CTM Terms and Conditions</title>
+        <meta
+          name="description"
+          content="CTM Cargo Transportation Management LLC Terms and Conditions of Trade"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={hero.container}>
         <div className={hero.content}>
-          <h2>Terms and conditions</h2>
-          <p></p>
-
+          <h2>Terms and Conditions of Trade</h2>
           <p>
-            Please note that CTM offers no guarantee to the charges applicable
-            at the destination. Destination charges are outside of the control
-            of CTM and any figures quoted by CTM are an indication only.
-          </p>
-          <ol>
-            <h2> Definitions</h2>
-          </ol>
-          <p>
-            1.1 - Box means a packed box, pallet, pallet box, shipping container
-            or any other item which CTM agrees in writing may be transported by
-            CTM in accordance with these Terms.
-          </p>
-          <p>
-            1.2 - Collection Address means the address notified by the Customer
-            to CTM and which CTM in its entire discretion agrees is where the
-            Boxes are to be sent, positioned or collected from.
-          </p>
-          <p>
-            1.3 - Contract means the contract between the Customer and CTM for
-            the Services.
-          </p>
-          <p>
-            1.4 - Customer means the person who accepts CTM quotation for the
-            Services.
-          </p>
-          <p>
-            1.5 - Delivery Address means the address or port or airport notified
-            by the Customer to CTM and which CTM in its entire discretion agrees
-            is where the Boxes are to be delivered to or such substituted
-            address as CTM shall in its entire discretion decide.
-          </p>
-          <p>
-            1.6 - Force Majeure Event means any event beyond the reasonable
-            control of CTM including, without limitation, fire, flood, storm,
-            tempest, inclement weather, acts of God, war, civil war or national
-            emergency, protests, riot, civil commotion, acts of terrorism,
-            malicious damage, compliance with law or governmental order, rule or
-            regulation or direction, accident, fuel shortage, lock-out, strikes
-            and other industrial disputes whether or not relating to CTM
-            workforce and restraints or delays affecting carriers.
-          </p>
-          <p>
-            1.7 - Prohibited Item means any single item which value exceeds
-            2500.00 USD, perishable goods, food stuffs of any description,
-            liquids of any description, tobacco or similar products, hazardous
-            materials or substances included but not limited to paint, matches,
-            aerosol cans, gas canisters or other flammable materials, firearms
-            and ammunition, plants or soil samples of any kind, live or stuffed
-            animals, non-prescription drugs or medicines, corrosive materials or
-            substances and explosives or pornography of any description, or any
-            other article where importation of the article is restricted or
-            prohibited at the destination by law or regulation.
-          </p>
-          <p>
-            1.8 - Services means the collection of the Boxes from the Collection
-            Address and the transportation of Boxes from the Collection Address
-            to the Delivery Address.
-          </p>
-          <p>1.9 - Terms means these Terms and Conditions</p>
-          <p>
-            1.10 - CTM means Cargo Transportation Management LLC, its agents,
-            subcontractors and employees.
-          </p>
-          <p>1.11 - Website means www.ctmbox.com, www.ctmgroup.info</p>
-          <ol>
-            <h2> Application</h2>
-          </ol>
-          <p>
-            2.1 - These Terms shall govern and be incorporated in every Contract
-            made by or on behalf of CTM and the Customer. They shall apply in
-            place of and prevail over any terms and conditions whether or not in
-            conflict or inconsistent with these Terms contained or referred to
-            in any documentation submitted by the Customer or in correspondence
-            or elsewhere or implied by trade, custom, practise or course of
-            dealing.
-          </p>
-          <p>
-            2.2 - These terms do not affect your statutory rights as a consumer.
-          </p>
-          <ol>
-            <h2> Prices</h2>
-          </ol>
-          <p>
-            3.1 - The price of the Services shall subject to clause 4.5 be CTM
-            stated price, or where no price has been stated or where a stated
-            price is no longer valid, such price as CTM shall notify the
-            Customer. Where the Customer provides to CTM a collection date more
-            than 15 days from placing the order for shipping, CTM shall be
-            entitled to increase any price stated.
-          </p>
-          <p>
-            3.2 - CTM reserves the right, by giving written notice to the
-            Customer to increase the price of the Services to reflect any
-            increase which is due to any factor beyond the control of CTM such
-            as without limitation, changes in the Delivery Address or any
-            changes instigated by the Customer any foreign exchange rate
-            fluctuation, currency regulation, alteration of duties, significant
-            increase in the cost of labour, duties or taxes levied by any
-            governmental authority or statutory body and any change in delivery
-            date or Delivery Address.
-          </p>
-          <p>
-            3.3 - CTM offers no guarantee to the charges applicable at the
-            destination. Destination charges are outside of the control of CTM
-            and any figures quoted by CTM are an indication only.
-          </p>
-          <p>
-            3.4 - Unless otherwise specified insurance where opted for by the
-            Customer, any tax, duty or charge payable by the Customer shall be
-            added to the price stated.
-          </p>
-          <ol>
-            <h2> Terms of Payment</h2>
-          </ol>
-          <p>4.1 - All prices are in USD</p>
-          <p>
-            4.2 - CTM may provide the Customer with an invoice for the price of
-            the Services on or at any time after delivery of the Boxes.
-          </p>
-          <p>
-            4.3 - No payment shall be deemed to have been received until CTM has
-            received in full cleared funds in USD.
-          </p>
-          <p>
-            4.4 - CTM is entitled to offset any amount owing to it from the
-            Customer against any amount owed to the Customer by CTM.
-          </p>
-          <p>
-            4.5 - If the Customer fails to make any payment in whole or in part
-            on the due date or is otherwise in breach of these Terms, then
-            without limiting any other right or remedy available to CTM, CTM
-            may:
-          </p>
-          <p>
-            4.5.1 cancel the Contract or suspend or withhold delivery of the
-            Boxes.
-          </p>
-          <p>
-            4.5.2 charge the Customer interest both before and after any
-            judgement on the amount unpaid, at the rate of 4 percent per annum
-            above HSBC plc base rate from time to time, until payment in full is
-            made a part month being treated as a full month for the purpose of
-            calculating interest.
-          </p>
-          <ol></ol>
-          <ol>
-            <h2> Additional Charges</h2>
-          </ol>
-          <p>
-            5.1 - CTM reserves the right to make and the Customer hereby
-            authorises CTM to make a charge or charges to the Customer credit
-            card or debit card where payment is required in the following
-            circumstances 24 hours notice of such a charge will be given:
-          </p>
-          <p>
-            5.1.1 a Box exceeds the weight set out in these terms a charge of 30
-            percent above the rate for the whole consignment of Boxes shall
-            apply. Minimum charge 60.00 USD.
-          </p>
-          <p>
-            5.1.2 a Box requires re-packing by CTM because the Customer has
-            packed a Prohibited Item or has failed to pack the Box in a manner
-            prescribed by CTM, a charge of 20 percent above the premium rate
-            charged in respect of the first Box shall apply, as well as
-            additional labour charged at 45.00 USD per hour.
-          </p>
-          <p>5.1.3 an administration fee of 75.00 USD for refunds.</p>
-          <p>
-            5.1.4 storage or disposal costs where delivery has been detained by
-            a government or regulatory authority or where the Customer was not
-            at the Delivery Address at the time of delivery or delivery could
-            not be made due to reasons beyond the control of CTM.
-          </p>
-          <p>
-            5.1.5 the Customer cargo is incurring charges for storage prior to
-            shipment being made.
-          </p>
-          <ol>
-            <h2> Box specifications</h2>
-          </ol>
-          <p>6.1 - Boxes must not unless agreed in writing by CTM:</p>
-          <p>
-            6.1.1 Exceed the agreed weight: Pallet Box = 600kg, FCL shipping
-            container = 27000 kg.
-          </p>
-          <p>6.1.2 contains a Prohibited Item.</p>
-          <p>
-            6.1.3 be packed in such a way that compromises the structure of the
-            box.
-          </p>
-          <p>
-            6.1.4 be assembled without having followed the instructions given by
-            CTM.
-          </p>
-          <p>
-            6.1.4 in the case of a shipping container, be loaded in accordance
-            with regulations at both origin and destination, this is inclusive
-            of but not limited to the weight and cargo distribution. Any charges
-            consequential to overweight or incorrectly stowed containers will
-            remain for the account of the customer.
-          </p>
-          <ol>
-            <h2> Collection</h2>
-          </ol>
-          <p>
-            7.1 - The Customer shall accurately complete CTM online collection
-            and destination details form.
-          </p>
-          <p>
-            7.2 - The Customer must ensure that all Boxes are placed on the
-            ground at the front of the Collection Address, as near to the road
-            as possible ready for collection. Collection may be refused or
-            additional charges may be charged to the Customer if this condition
-            is not met.
-          </p>
-          <p>
-            7.3 - The collection will be at kerbside and the boxes must have
-            free access to a pallet truck.
-          </p>
-          <p>
-            7.4 - In case of a shipping container, the customer shall notify the
-            relevant authorities to provide parking space for loading or
-            unloading.
-          </p>
-          <p>
-            7.5 - CTM must receive notification from the Customer of any change
-            to the Delivery Address before CTM collects the Boxes.
-          </p>
-          <h2>7.6 - The Customer shall ensure that:</h2>
-          <p>
-            7.6.1 The Customer shall provide the collection receipt to the
-            carrier for signing when the Boxes are collected. The carrier shall
-            return the collection receipt to the Customer confirming the number
-            of Boxes collected. Should any collection receipt not be presented
-            to the Carrier, CTM shall be entitled to rely on the evidence of the
-            carrier as to the number of Boxes collected.
-          </p>
-          <p>
-            7.6.2 In case of a shipping container, a minimum of 15 mts of
-            parking and loading space for the truck is available.
-          </p>
-          <h2>
-            7.7 - CTM retains the right to refuse collection or positioning of
-            any Box which:
-          </h2>
-          <p>
-            7.7.1 Does not meet the box specifications set out in clause 6.1 or
-            CTM in its entire discretion deems unsuitable for transportation.
-          </p>
-          <p>7.7.3 Loading area is not accessible or suitable for loading.</p>
-          <ol>
-            <h2> Delivery</h2>
-          </ol>
-          <p>
-            8.1 - CTM shall deliver the Boxes to the Delivery Address or port or
-            airport arranged in accordance with the contract.
-          </p>
-          <p>
-            8.2 - All destination charges are for the account of the customer,
-            the customer shall ensure at the country of destination that customs
-            formalities, fees, penalties and any charge related to the delivery
-            of the cargo is promptly paid and dealt with.
-          </p>
-          <p>
-            8.3 - The Customer shall inspect the Boxes at the Delivery Address.
-            The Customer must record any damage to the Boxes or missing Boxes on
-            the delivery note. If the Customer fails to sign and annotate the
-            delivery note confirming all Boxes are present and undamaged, CTM
-            are unable to claim against the carrier and the Customer will be
-            responsible for any replacement costs where damage has been caused
-            to the Boxes.
-          </p>
-          <p>
-            8.4 - The customer will not in all circumstances be entitled to
-            compensation, or to full compensation. For any loss and is therefore
-            recommended to seek professional advice as to appropriate insurance
-            cover to be maintained while consignments are in transit.
-          </p>
-          <p>
-            8.5 - Where CTM is unable to deliver the Boxes to the Delivery
-            Address, CTM shall inform the Customer in writing and shall have the
-            right to:
-          </p>
-          <p>8.5.1 store the Boxes at the Customers expense or:</p>
-          <p>
-            8.5.2 destroy or dispose of the Boxes and their contents at the
-            Customer expense within 30 days of notifying the Customer of the
-            failure to deliver.
-          </p>
-          <p>
-            8.6 - The Customer shall pay CTM on demand any storage fees,
-            demurrage fees, port charges and associated costs that arise under
-            clauses 6 and 7.
-          </p>
-          <p>
-            8.7 - The Customer shall at all times act in good faith in its
-            dealings with CTM.
+            <strong>
+              Cargo Transportation Management LLC
+              <br />
+              (Freight Forwarding Services)
+            </strong>
           </p>
 
-          <ol>
-            <h2> Liability</h2>
-          </ol>
           <p>
-            9.1 - The following provisions set out the entire financial
-            liability of CTM including any liability for the act or omissions of
-            its employees, agents and subcontractors to the Customer in respect
-            of any breach of these Terms and any representation, statement or
-            tortious act or omission including negligence arising under or in
-            connection with the Contract:
-          </p>
-          <p>
-            9.1.1 CTM total liability in contract, including negligence or
-            breach of statutory duty, misrepresentation, restitution or
-            otherwise arising in connection with the performance or contemplated
-            performance of this Contract shall be limited to 100 USD per Box
-            subject to a maximum of the Contract price;
-          </p>
-          <p>
-            9.1.2 CTM shall not be liable to the Customer for any indirect or
-            consequential loss or damage whether for loss of profit, loss of
-            business, depletion of goodwill or otherwise, costs, expenses or
-            other claims for consequential compensation whatsoever howsoever
-            caused which arise out of or in connection with the Contract.
-          </p>
-          <ol>
-            <h2> Force Majeure</h2>
-          </ol>
-          <p>
-            10.1 - If CTM is prevented or hindered or delayed from providing the
-            Services in accordance with these Terms by a Force Majeure Event,
-            CTM may:
-          </p>
-          <p>
-            10.1.1 suspend delivery of the Boxes to the Delivery Address while
-            the Force Majeure Event continues or -
-          </p>
-          <p>
-            10.1.2 terminate the contract with immediate effect by written
-            notice to the Customer and CTM shall not be liable to the Customer
-            for any indirect or consequential loss or damage whether for loss of
-            profit, loss of business, depletion of goodwill or otherwise, costs,
-            expenses or other claims for consequential compensation whatsoever
-            howsoever caused as a result.
-          </p>
-          <ol>
-            <h2> Parties and Subcontractors</h2>
-          </ol>
-          <p>
-            11.1 - The Customer warrants that he is either the owner of the
-            content of the boxes or is authorised by such owner to accept these
-            Conditions on such owner behalf.
-          </p>
-          <p>
-            11.2 - The carriage of any Boxes by rail, sea, inland waterway or
-            air is arranged by CTM as agent of the Customer and shall be subject
-            to the Conditions of the rail, sea, road or air carrier contracted
-            to carry the Boxes. CTM shall be under no liability whatever to
-            whomsoever and howsoever arising in respect of such carriage, nor
-            shall be liable for any loss, damage or delay shall be deemed to
-            have occurred while the Box was being carried.
-          </p>
-          <p>
-            11.3 -CTM may in its absolute discretion subcontract all or any part
-            of the Services to a third party.
+            These Terms and Conditions of Trade (&quot;Terms&quot;) shall govern
+            and be incorporated into every contract for freight forwarding
+            services made by or on behalf of Cargo Transportation Management
+            LLC (&quot;CTM&quot;) and the customer (&quot;Shipper&quot;). These
+            Terms shall apply in place of and prevail over any terms or
+            conditions, whether in conflict or inconsistent with these Terms,
+            contained or referred to in any documentation submitted by the
+            Shipper or in correspondence or elsewhere or implied by trade,
+            custom, practice, or course of dealing. The Shipper&apos;s
+            engagement of CTM&apos;s services constitutes acceptance of these
+            Terms.
           </p>
 
+          <hr />
+
+          <h2>1. Definitions</h2>
+          <p>
+            <strong>CTM:</strong> Cargo Transportation Management LLC, an
+            Arizona limited liability company.
+          </p>
+          <p>
+            <strong>Shipper:</strong> The person or company, including its
+            agents and/or representatives, engaging CTM&apos;s services to
+            arrange for the transportation of Goods.
+          </p>
+          <p>
+            <strong>Carrier:</strong> The underlying transportation provider
+            (e.g., ocean line, airline, trucking company) that physically
+            transports the Goods and issues the governing contract of carriage.
+          </p>
+          <p>
+            <strong>Goods:</strong> The cargo, including any containers or
+            packaging, for which the Shipper has engaged CTM to arrange
+            transportation.
+          </p>
+          <p>
+            <strong>Services:</strong> The freight forwarding services performed
+            by CTM as defined in Clause 3.
+          </p>
+          <p>
+            <strong>MBL:</strong> Master Bill of Lading, the contract of
+            carriage issued by the Carrier.
+          </p>
+
+          <hr />
+
+          <h2>2. CTM&apos;s Role as Agent</h2>
+          <p>
+            <strong>2.1. CTM Acts Solely as Agent.</strong> The Shipper
+            acknowledges and agrees that in performing the Services, CTM acts
+            solely as an &quot;agent&quot; for the Shipper for the purpose of
+            arranging transportation and related services with Carriers.
+          </p>
+          <p>
+            <strong>2.2. No Carrier Liability.</strong> CTM is not acting as a
+            &quot;carrier&quot; (whether common or contract), a &quot;Non-Vessel
+            Operating Common Carrier (NVOCC),&quot; or in any other capacity
+            that would make it liable for the physical transportation of the
+            Goods. The contract of carriage for the transportation of the Goods
+            is at all times directly between the Shipper and the underlying
+            Carrier. CTM&apos;s responsibility is limited to the diligent and
+            professional performance of its duties as an agent.
+          </p>
+
+          <hr />
+
+          <h2>3. Scope of Services</h2>
+          <p>
+            <strong>3.1. Included Services.</strong> CTM’s Services are limited
+            to the following:
+          </p>
           <ol>
-            <h2> Severability</h2>
+            <p>
+              <strong>Booking</strong> or arranging for cargo space on vessels,
+              aircraft, or vehicles operated by Carriers.
+            </p>
+            <p>
+              <strong>Coordinating</strong> the preparation and submission of
+              booking details and shipping instructions to the Carrier based on
+              the information provided by the Shipper.
+            </p>
+            <p>
+              <strong>Arranging</strong> for cargo insurance, but{" "}
+              <strong>only</strong> upon the express prior written instruction
+              of the Shipper as outlined in Clause 6.
+            </p>
+            <p>
+              <strong>Providing</strong> the Shipper with the Carrier&apos;s
+              booking confirmation and a copy of the MBL once issued by the
+              Carrier.
+            </p>
           </ol>
           <p>
-            12.1 - If any Term of a Contract or part of a Term, is found by any
-            court or administrative body of competent jurisdiction to be
-            invalid, unenforceable or illegal, the other Terms shall remain in
-            force.
+            <strong>3.2. Excluded Services.</strong> Unless otherwise agreed
+            upon in a separate written agreement signed by an authorized
+            representative of CTM, the Services expressly{" "}
+            <strong>do not</strong> include: cargo consolidation, physical
+            handling, packing, warehousing of Goods, issuing House Bills of
+            Lading, customs clearance, or import/export advisory services.
+          </p>
+
+          <hr />
+
+          <h2>4. Bills of Lading and Governing Transport Documents</h2>
+          <p>
+            The governing transport document for the carriage of the Goods shall
+            be the Master Bill of Lading (MBL) or other similar transport
+            document issued by the actual Carrier. The Shipper and Consignee
+            shall be named on the MBL, and their rights and obligations, as well
+            as those of the Carrier, shall be governed exclusively by the terms
+            and conditions set forth in the Carrier&apos;s MBL and applicable
+            tariff. CTM is not a party to the MBL and is not bound by, nor makes
+            any representations regarding, its terms and conditions.
+          </p>
+
+          <hr />
+
+          <h2>5. Shipper’s Obligations and Reliance on Information</h2>
+          <p>
+            <strong>5.1. Accuracy of Information.</strong> CTM relies on the
+            accuracy and completeness of all information provided by the
+            Shipper, including but not limited to, cargo description, weight,
+            dimensions, piece count, commodity codes, hazardous material
+            information, and consignee details. The Shipper warrants the
+            accuracy of all such information.
           </p>
           <p>
-            12.2 - If any invalid, unenforceable or illegal Term of a Contract
-            would be valid, enforceable or legal if some part of it were
-            deleted, the Term shall apply with whatever modification is
-            necessary to give effect to the commercial intentions of CTM.
+            <strong>5.2. Indemnification.</strong> The Shipper shall indemnify
+            and hold harmless CTM from and against all claims, liabilities,
+            losses, damages, fines, penalties, and expenses (including
+            reasonable attorneys&apos; fees) arising from any inaccuracy,
+            omission, or misrepresentation in the information provided by the
+            Shipper or from the Shipper&apos;s failure to comply with any
+            applicable laws or regulations.
+          </p>
+
+          <hr />
+
+          <h2>6. Cargo Insurance</h2>
+          <p>
+            <strong>6.1. Written Instruction Required.</strong> CTM has no
+            obligation to arrange for cargo insurance. CTM will only arrange for
+            cargo insurance upon receiving{" "}
+            <strong>express written instructions</strong> from the Shipper to do
+            so prior to the commencement of transit.
+          </p>
+          <p>
+            <strong>6.2. CTM Not an Insurer.</strong> If CTM arranges for
+            insurance pursuant to the Shipper&apos;s written instructions, it
+            does so as an agent for the Shipper. CTM is not an insurance
+            provider, broker, or underwriter. The insurance is subject to the
+            terms, conditions, and exclusions of the policy issued by the
+            insurance company.
+          </p>
+          <p>
+            <strong>6.3. Cargo at Shipper&apos;s Risk.</strong> In the absence
+            of such written instructions to obtain insurance, the Goods shall be
+            deemed to be uninsured by CTM, and the Shipper assumes all risk of
+            loss or damage, subject only to the limited liability of the
+            underlying Carrier as may be provided in the Carrier’s MBL.
+          </p>
+
+          <hr />
+
+          <h2>7. Limitation of Liability</h2>
+          <p>
+            <strong>7.1. Basis of Liability.</strong> CTM&apos;s liability is
+            strictly limited to its own acts of proven negligence in the
+            performance of the specific Services defined in Clause 3. CTM shall
+            not be liable for any loss, damage, expense, or delay to the Goods
+            resulting from the acts, omissions, or negligence of the Carrier or
+            any third parties engaged in the transportation or handling of the
+            Goods.
+          </p>
+          <p>
+            <strong>7.2. Monetary Limitation.</strong> In any event, CTM&apos;s
+            liability for any claim whatsoever arising from its Services shall
+            be limited to the lesser of: The total amount of CTM’s service fees for the specific shipment
+              in which the claim arose.
+          </p>
+         
+          <p>
+            <strong>7.3. Disclaimer of Consequential Damages.</strong> Under no
+            circumstances shall CTM be liable for any indirect, consequential,
+            or special damages, including but not limited to, lost profits, loss
+            of market, or loss of business opportunity, even if CTM had
+            knowledge that such damages were possible.
+          </p>
+
+          <hr />
+
+          <h2>8. Invoicing and Payment</h2>
+          <p>
+            <strong>8.1. Invoice Composition.</strong> Invoices issued by CTM
+            will separately state:
           </p>
           <ol>
-            <h2> Waiver</h2>
+            <p>
+              <strong>1 - </strong>The freight, surcharges, and other associated charges passed
+              through directly from the Carrier at cost or as quoted.
+            </p>
+            <p><strong>2 - </strong>CTM&apos;s service fee for arranging the shipment.</p>
           </ol>
           <p>
-            13.1 -The failure by CTM to exercise or delay by CTM in exercising
-            any right, power or remedy provided by a Contract or by law does not
-            constitute a waiver of such right, power or remedy or a waiver of
-            any other rights, powers, or remedies. No single or partial exercise
-            of a right, power or remedy provided by a Contract shall prevent any
-            further exercise of the right, power or remedy or the exercise of
-            another right, power or remedy,
+            <strong>8.2. Payment Terms.</strong> Payment is due in full within
+            fifteen (15) days from the date of the invoice (Net 15) without
+            deduction or set-off. CTM reserves the right to charge interest on
+            any overdue amounts at a rate of 1.5% per month or the highest rate
+            permitted by law. The Shipper shall be liable for all costs of
+            collection, including reasonable attorneys&apos; fees, incurred by
+            CTM to collect overdue payments.
           </p>
-          <ol>
-            <h2> Third Party Rights</h2>
-          </ol>
+
+          <hr />
+
+          <h2>9. Governing Law and Jurisdiction</h2>
           <p>
-            14.1 - Nothing in a Contract is intended to confer on any person any
-            right to enforce any Term of Contract which that person would not
-            have had but for the Contracts Rights of Third Parties.
+            These Terms and the Services provided by CTM shall be governed by
+            and construed in accordance with the laws of the State of Arizona,
+            without regard to its conflict of law principles. Any legal action
+            or proceeding arising under these Terms shall be brought exclusively
+            in the state or federal courts located in Maricopa County, Arizona.
           </p>
-          <ol>
-            <h2> Governing Law and Jurisdiction</h2>
-          </ol>
+
+          <hr />
+
+          <h2>10. Severability and Entire Agreement</h2>
           <p>
-            15.1 - A Contract is governed by, and shall be construed in
-            accordance with, the laws of the State of Arizona, United States of
-            America.
+            If any provision of these Terms is found to be invalid or
+            unenforceable, the remaining provisions shall remain in full force
+            and effect. These Terms constitute the entire agreement between CTM
+            and the Shipper and supersede all prior oral or written
+            negotiations, representations, or agreements. No modification of
+            these Terms shall be effective unless made in writing and signed by
+            an authorized representative of CTM.
           </p>
-          <p>
-            15.2 - The state and federal courts located in the State of Arizona,
-            United States of America, have exclusive jurisdiction to hear and
-            decide any suit, action or proceedings and to settle any disputes,
-            which may arise out of or in connection with a Contract and, for
-            these purposes, each party irrevocably submits to the exclusive
-            jurisdiction of the state and federal courts located in the State of
-            Arizona.
-          </p>
-          <ol>
-            <h2> Notice</h2>
-          </ol>
-          <p>
-            16.1 - A Notice required or permitted to be given by the Customer to
-            CTM under these terms shall be in writing.
-          </p>
+
+          
+
+         
         </div>
       </section>
     </>
