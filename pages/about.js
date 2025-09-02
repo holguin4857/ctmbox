@@ -34,12 +34,12 @@ export default function About() {
         
         <div className={about.image}>
           <Image
-            src="/images/romo.jpeg"
+            src="/images/romo.png"
             alt="Rogelio Romo"
             width={300}
             height={300}
             placeholder="blur"
-            blurDataURL="/images/romo.jpeg"
+            blurDataURL="/images/romo.png"
           />
         </div>
 
