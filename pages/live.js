@@ -24,8 +24,6 @@ export default function Book() {
           <h2>Live Dispatcher Desk</h2>
           <p></p>
 
-         
-
           <p></p>
 
           {/* 2. THIS IS THE NEW BUTTON
@@ -34,17 +32,14 @@ export default function Book() {
             and includes the necessary data attributes for the script.
           */}
           <div className={buttons.buttonContainer}>
-            <button
-              className={`${buttons.button} involveme_popup`}
-              data-project="CTM-quote"
-              data-embed-mode="popup"
-              data-trigger-event="button"
-              data-popup-size="medium"
-              data-organization-url="https://baserow.io/database/299621/table/695419/1329782"
-              data-title="CTM"
+            <a
+              href="https://baserow.io/database/299621/table/695419/1329782"
+              className={buttons.button}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               CTM Dispatch
-            </button>
+            </a>
           </div>
         </div>
       </section>
