@@ -26,7 +26,7 @@ export default function Footer () {
                 <h4>Booking</h4>
                 <ul>
                   <li><Link href="services">Services</Link></li>
-                  <li><Link href="services">FAQ</Link></li>
+                  <li><Link href="live">Dispatcher</Link></li>
                   <li><Link href="book">Book now</Link></li>
                 </ul>
               </div>
