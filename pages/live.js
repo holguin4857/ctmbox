@@ -33,7 +33,7 @@ export default function Book() {
           */}
           <div className={buttons.buttonContainer}>
             <a
-              href="https://baserow.io/database/299621/table/695419/1329782"
+              href="https://baserow.io/database/299621/table/695419/1327475"
               className={buttons.button}
               target="_blank"
               rel="noopener noreferrer"
