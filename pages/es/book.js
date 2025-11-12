@@ -1,5 +1,7 @@
 import Head from "next/head";
-import Script from "next/script";
+import Link from "next/link";
+// --- CORRECTED PATHS ---
+import form from "../../styles/form.module.css";
 import hero from "../../styles/hero.module.css";
 import buttons from "../../styles/buttons.module.css";
 
@@ -7,70 +9,177 @@ export default function Book() {
   return (
     <>
       <Head>
-        <title>Reserve su Envío México-EE.UU. | CTM</title>
+        <title>Obtener Cotización de Transporte | CTM</title>
         <meta
           name="description"
-          content="¿Listo para enviar? Use nuestro sencillo formulario para programar su envío terrestre o marítimo entre México y EE.UU. Obtenga una cotización rápida y confiable."
+          content="¿Listo para enviar? Complete nuestro sencillo formulario para obtener una cotización rápida y confiable para su envío FTL o LTL."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <section className={hero.container}>
-        <div className={hero.content}>
-          <h2>Obtenga una cotización experta y rápida</h2>
-          <p></p>
+        {/* This is our new 2-column layout container */}
+        <div className={form.pageLayout}>
+          {/* --- LEFT SIDE (FORM) --- */}
+          <div className={form.formWrapper}>
+            <h2>Obtenga una Cotización de Transporte Rápida y Gratuita</h2>
+            <p>
+              Complete el formulario a continuación y nuestro equipo se
+              comunicará con usted en breve con una cotización personalizada con
+              todo incluido para su envío.
+            </p>
 
-          <p>
-            ¿Listo para su envío? Nuestro formulario es más que una simple
-            solicitud de precios: es el primer paso para diseñar su solución
-            logística a medida. La información clave que nos facilita (tipo de
-            carga, ruta y requisitos aduaneros){" "}
-            <strong>
-              pone en marcha nuestro motor de 40 años de experiencia.
-            </strong>
-            .
-          </p>
-          <p>
-            Esto nos permite asignarle el transporte idóneo, prever los desafíos
-            del cruce fronterizo y entregarle una cotización competitiva y
-            precisa. El objetivo es claro: un plan de envío optimizado y sin
-            sorpresas para usted.
-          </p>
-
-          <p></p>
-
-          {/* 2. THIS IS THE NEW BUTTON
-            The old button with the <Link> inside has been replaced by this.
-            It combines your styles with the required 'involveme_popup' class
-            and includes the necessary data attributes for the script.
-          */}
-
-          <div className={buttons.buttonContainer}>
-            <button
-              className={`${buttons.button} involveme_popup`}
-              data-project="CTM-quote"
-              data-embed-mode="popup"
-              data-trigger-event="button"
-              data-popup-size="medium"
-              data-organization-url="https://trexco.involve.me"
-              data-title="CTM Quote"
+            <form
+              action="https://n8n.ctmbox.com/webhook/73578180-8939-4fe5-aedb-acd9835d79a7"
+              method="POST"
+              className={form.formElement}
             >
-              Reservar Ahora
-            </button>
+
+              {/* --- ESTE ES EL CAMPO OCULTO --- */}
+            <input type="hidden" name="formLanguage" value="es" />
+            
+              {/* --- Tipo de Carga --- */}
+              <div className={form.formGroup}>
+                <label htmlFor="load-type" className={form.label}>
+                  Tipo de Carga
+                </label>
+                <select
+                  id="load-type"
+                  name="load-type"
+                  className={form.select}
+                  required
+                >
+                  <option value="">Por favor seleccione...</option>
+                  <option value="FTL (Carga Completa)">
+                    FTL (Carga Completa)
+                  </option>
+                  <option value="LTL (Carga Consolidada)">
+                    LTL (Carga Consolidada)
+                  </option>
+                </select>
+              </div>
+
+              {/* --- Descripción de la Carga --- */}
+              <div className={form.formGroup}>
+                <label htmlFor="cargo" className={form.label}>
+                  Descripción de la Carga
+                </label>
+                <textarea
+                  id="cargo"
+                  name="cargo-description"
+                  className={form.textarea}
+                  placeholder="Ej: 24 palets de piezas de máquina, dimensiones, peso..."
+                  required
+                ></textarea>
+              </div>
+
+              {/* --- Dirección de Recolección --- */}
+              <div className={form.formGroup}>
+                <label htmlFor="collection" className={form.label}>
+                  Dirección de Recolección
+                </label>
+                <textarea
+                  id="collection"
+                  name="collection-address"
+                  className={form.textarea}
+                  placeholder="Calle, Ciudad, Estado, Código Postal"
+                  required
+                ></textarea>
+              </div>
+
+              {/* --- Dirección de Entrega --- */}
+              <div className={form.formGroup}>
+                <label htmlFor="delivery" className={form.label}>
+                  Dirección de Entrega
+                </label>
+                <textarea
+                  id="delivery"
+                  name="delivery-address"
+                  className={form.textarea}
+                  placeholder="Calle, Ciudad, Estado, Código Postal"
+                  required
+                ></textarea>
+              </div>
+
+              {/* --- Detalles de Contacto --- */}
+              <div className={form.formGroup}>
+                <label htmlFor="name" className={form.label}>
+                  Su Nombre
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  className={form.input}
+                  required
+                />
+              </div>
+
+              <div className={form.formGroup}>
+                <label htmlFor="email" className={form.label}>
+                  Su Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  className={form.input}
+                  required
+                />
+              </div>
+
+              {/* --- Su Teléfono --- */}
+              <div className={form.formGroup}>
+                <label htmlFor="phone" className={form.label}>
+                  Su Teléfono
+                </label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  className={form.input}
+                  placeholder="(555) 555-1234"
+                  required
+                />
+              </div>
+
+              {/* --- Botón de Envío --- */}
+              <div className={buttons.buttonContainer}>
+                <button type="submit" className={buttons.button}>
+                  Solicita Cotización
+                </button>
+              </div>
+            </form>
+          </div>
+
+          {/* --- RIGHT SIDE (INFO BOX) --- */}
+          <div className={form.infoWrapper}>
+            <h3>Contáctenos Directamente</h3>
+            <p>
+              ¿Prefiere hablar? Llámenos o envíenos un correo electrónico
+              directamente. Estamos aquí para ayudar.
+            </p>
+            <p>
+              <strong>Teléfono:</strong>
+              <br />
+              +1-520-352-7255
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <br />
+              contact@ctmbox.com
+            </p>
+            <p>
+              <strong>Dirección:</strong>
+              <br />
+              791 E Evans Blvd
+              <br />
+              Tucson, AZ 85713
+            </p>
           </div>
         </div>
       </section>
-
-      {/* 3. ADD THE SCRIPT HERE
-        This loads the involve.me JavaScript. By placing it here with the
-        'afterInteractive' strategy, we ensure it doesn't slow down your
-        page's initial load time.
-      */}
-      <Script
-        src="https://trexco.involve.me/embed?type=popup"
-        strategy="afterInteractive"
-      />
     </>
   );
 }

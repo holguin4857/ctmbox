@@ -34,7 +34,7 @@ export default function Services() {
 
           <div className={buttons.buttonContainer}>
             <button className={buttons.button1}>
-              <Link href="contact">Hable con un experto</Link>
+              <Link href="/es/contact">Hable con un experto</Link>
             </button>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function Services() {
 
           <div className={buttons.buttonContainer}>
             <button className={buttons.button}>
-              <Link href="book">Reservar Ahora</Link>
+              <Link href="/es/book">Reservar Ahora</Link>
             </button>
           </div>
           

@@ -64,7 +64,7 @@ export default function Contact() {
 
           <div className={buttons.buttonContainer}>
             <button className={buttons.button}>
-              <Link href="book">Reservar ahora</Link>
+              <Link href="/es/book">Reservar ahora</Link>
             </button>
           </div>
           

@@ -116,10 +116,10 @@ export default function About() {
 
           <div className={buttons.buttonContainer}>
             <button className={buttons.button}>
-              <Link href="contact">Hable con un experto</Link>
+              <Link href="/es/contact">Hable con un experto</Link>
             </button>
             <button className={buttons.button1}>
-              <Link href="book">Reservar Ahora</Link>
+              <Link href="/es/book">Reservar Ahora</Link>
             </button>
           </div>
         </div>
