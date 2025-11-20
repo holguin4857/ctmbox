@@ -33,7 +33,7 @@ export default function Footer () {
               <div className="footer-col">
                 <h4>Follow us</h4>
                 <ul>
-                  <li><Link href="https://www.facebook.com">Facebook</Link></li>
+                  <li><Link href="https://www.facebook.com/ctmbox">Facebook</Link></li>
                   <li><Link href="https://twitter.com">Twitter</Link></li>
                 </ul>
               </div>
