@@ -9,6 +9,7 @@ const MENU_LIST = [
   { enText: "Home", esText: "Inicio", href: "/" },
   { enText: "Services", esText: "Servicios", href: "/services" },
   { enText: "About Us", esText: "Nosotros", href: "/about" }, // Changed to "Nosotros" for common Spanish usage
+  { enText: "Blog", esText: "Blog", href: "/blog" },
   { enText: "Contact", esText: "Contacto", href: "/contact" },
   { enText: "Book now", esText: "Reservar Ahora", href: "/book" }, // Changed to "Reservar Ahora"
 ];

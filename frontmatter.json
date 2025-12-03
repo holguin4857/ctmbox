@@ -8,12 +8,18 @@
     {
       "title": "Blog (English)",
       "path": "[[workspace]]/content/blog/en",
-      "defaultLanguage": "en"
+      "defaultLanguage": "en",
+      "contentTypes": [
+        "default"
+      ]
     },
     {
       "title": "Blog (Spanish)",
       "path": "[[workspace]]/content/blog/es",
-      "defaultLanguage": "es"
+      "defaultLanguage": "es",
+      "contentTypes": [
+        "default"
+      ]
     }
   ],
   "frontMatter.taxonomy.contentTypes": [
