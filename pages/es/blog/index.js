@@ -4,8 +4,6 @@ import matter from 'gray-matter';
 import Link from 'next/link';
 import Head from 'next/head';
 
-// 1. IMPORT SITE CSS
-// Note: We use '../../../' because we are in pages/es/blog/
 import styles from '../../../styles/blog.module.css';
 import btnStyles from '../../../styles/buttons.module.css';
 
@@ -20,7 +18,7 @@ export default function BlogIndexEs({ posts }) {
       <div className={styles.container}>
         <header className={styles.header}>
           <h1>CTM Blog (Español)</h1>
-          <p>Noticias y actualizaciones de logistica.</p>
+          <p>Noticias y actualizaciones de la carretera.</p>
         </header>
 
         <div className={styles.grid}>
@@ -29,6 +27,7 @@ export default function BlogIndexEs({ posts }) {
           {posts.map((post) => (
             <div key={post.slug} className={styles.card}>
               {post.frontmatter.image && (
+                // eslint-disable-next-line @next/next/no-img-element
                 <img src={post.frontmatter.image} alt={post.frontmatter.title} />
               )}
               
@@ -49,40 +48,21 @@ export default function BlogIndexEs({ posts }) {
     </>
   );
 }
-// 2. DATA ENGINE (Spanish)
+
 export async function getStaticProps() {
-  // Point to the SPANISH folder
   const filesPath = path.join(process.cwd(), 'content/blog/es');
-  
-  // Safety check: Avoid crash if folder is empty/missing
-  if (!fs.existsSync(filesPath)) {
-    return { props: { posts: [] } };
-  }
-
+  if (!fs.existsSync(filesPath)) { return { props: { posts: [] } }; }
   const files = fs.readdirSync(filesPath);
-
   const posts = files.map((filename) => {
     const slug = filename.replace('.md', '');
     const markdownWithMeta = fs.readFileSync(path.join(filesPath, filename), 'utf-8');
     const { data: frontmatter } = matter(markdownWithMeta);
-
-    // Fix Date Object for Next.js
     if (frontmatter.date && typeof frontmatter.date === 'object') {
       frontmatter.date = frontmatter.date.toISOString();
     }
-
-    return {
-      slug,
-      frontmatter,
-    };
+    return { slug, frontmatter };
   });
 
-  // Sort by date (Newest first)
   posts.sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
-
-  return {
-    props: {
-      posts,
-    },
-  };
+  return { props: { posts } };
 }

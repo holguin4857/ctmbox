@@ -5,14 +5,12 @@ import { marked } from 'marked';
 import Link from 'next/link';
 import Head from 'next/head';
 
-// Import ONLY the blog layout styles (We removed the unused btnStyles)
 import styles from '../../styles/blog.module.css';
 
 export default function BlogPost({ frontmatter, content, slug }) {
   return (
     <>
       <Head>
-        {/* FIX: Use backticks to make the title a single string, stopping the React warning */}
         <title>{`${frontmatter.title} | CTMBOX`}</title>
         <meta name="description" content={frontmatter.social_summary} />
       </Head>
@@ -20,7 +18,6 @@ export default function BlogPost({ frontmatter, content, slug }) {
       <div className={styles.container}>
         <article className={styles.article}>
           
-          {/* Back Link - We keep this as a clean text link for better UX */}
           <Link href="/blog" style={{ textDecoration: 'none', color: '#666', display: 'inline-block', marginBottom: '1rem' }}>
              &larr; Back to Index
           </Link>
@@ -35,19 +32,19 @@ export default function BlogPost({ frontmatter, content, slug }) {
             </p>
           </header>
 
-          {/* Social Hook Box */}
+          {/* FIX: Used &quot; instead of " to satisfy React */}
           {frontmatter.social_summary && (
             <div className={styles.socialBox}>
-              <strong>📢 Social Hook:</strong> "{frontmatter.social_summary}"
+              <strong>📢 Social Hook:</strong> &quot;{frontmatter.social_summary}&quot;
             </div>
           )}
 
-          {/* Featured Image */}
+          {/* FIX: Added eslint-disable to allow standard img tag */}
           {frontmatter.image && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img src={frontmatter.image} alt={frontmatter.title} />
           )}
 
-          {/* Content Body */}
           <div 
             dangerouslySetInnerHTML={{ __html: content }} 
             style={{ lineHeight: '1.8', fontSize: '1.1rem' }}
@@ -58,10 +55,6 @@ export default function BlogPost({ frontmatter, content, slug }) {
     </>
   );
 }
-
-// ---------------------------------------------------------
-// DATA FETCHING (No changes needed here, just keeping it intact)
-// ---------------------------------------------------------
 
 export async function getStaticPaths() {
   const files = fs.readdirSync(path.join('content/blog/en'));

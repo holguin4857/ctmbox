@@ -5,14 +5,12 @@ import { marked } from 'marked';
 import Link from 'next/link';
 import Head from 'next/head';
 
-// Import CSS Modules (Note: We go up 3 levels because we are in /es/blog/)
 import styles from '../../../styles/blog.module.css';
 
 export default function BlogPostEs({ frontmatter, content, slug }) {
   return (
     <>
       <Head>
-        {/* FIX: Prevent the React "Array" warning */}
         <title>{`${frontmatter.title} | CTMBOX Español`}</title>
         <meta name="description" content={frontmatter.social_summary} />
       </Head>
@@ -20,7 +18,6 @@ export default function BlogPostEs({ frontmatter, content, slug }) {
       <div className={styles.container}>
         <article className={styles.article}>
           
-          {/* Back Link (Translated) */}
           <Link href="/es/blog" style={{ textDecoration: 'none', color: '#666', display: 'inline-block', marginBottom: '1rem' }}>
              &larr; Volver a Noticias
           </Link>
@@ -35,19 +32,19 @@ export default function BlogPostEs({ frontmatter, content, slug }) {
             </p>
           </header>
 
-          {/* Social Hook Box (Translated) */}
+          {/* FIX: Used &quot; instead of " */}
           {frontmatter.social_summary && (
             <div className={styles.socialBox} style={{ borderLeftColor: '#eab308', backgroundColor: '#fffbe6' }}>
-              <strong>📢 Hook para Redes:</strong> "{frontmatter.social_summary}"
+              <strong>📢 Hook para Redes:</strong> &quot;{frontmatter.social_summary}&quot;
             </div>
           )}
 
-          {/* Featured Image */}
+          {/* FIX: Added eslint-disable */}
           {frontmatter.image && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img src={frontmatter.image} alt={frontmatter.title} />
           )}
 
-          {/* Content Body */}
           <div 
             dangerouslySetInnerHTML={{ __html: content }} 
             style={{ lineHeight: '1.8', fontSize: '1.1rem' }}
@@ -59,35 +56,22 @@ export default function BlogPostEs({ frontmatter, content, slug }) {
   );
 }
 
-// ---------------------------------------------------------
-// DATA FETCHING (Spanish Engine)
-// ---------------------------------------------------------
-
 export async function getStaticPaths() {
-  // Look in the SPANISH folder
   const folderPath = path.join('content/blog/es');
-  
-  // Safety check: if folder doesn't exist yet, return empty
   if (!fs.existsSync(folderPath)) return { paths: [], fallback: false };
-
   const files = fs.readdirSync(folderPath);
   const paths = files.map((filename) => ({
     params: { slug: filename.replace('.md', '') },
   }));
-
   return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  // Read from the SPANISH folder
   const markdownWithMeta = fs.readFileSync(path.join('content/blog/es', slug + '.md'), 'utf-8');
   const { data: frontmatter, content } = matter(markdownWithMeta);
-
-  // Date fix
   if (frontmatter.date && typeof frontmatter.date === 'object') {
     frontmatter.date = frontmatter.date.toISOString();
   }
-
   return {
     props: {
       frontmatter,
