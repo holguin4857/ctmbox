@@ -48,15 +48,11 @@ export default function Contact() {
           <p>
             <strong>Email:</strong>
             <br />
-            For general enquiries and trucking services:
+            For general enquiries:
             <br />
-            Rogelio Romo: <strong>roy@ctmbox.com</strong>
+            <strong>contact@ctmbox.com</strong>
           </p>
-          <p>
-            For international freight forwarding and other inquiries:
-            <br />
-            Omar Holguin: <strong>omar@ctmbox.com</strong>
-          </p>
+        
 
           <p></p>
 
