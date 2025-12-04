@@ -32,7 +32,7 @@ export default function BlogIndex({ posts }) {
               )}
               
               <small className={styles.meta}>
-                📅 {post.frontmatter.date.split('T')[0]}
+                {post.frontmatter.date.split('T')[0]}
               </small>
 
               <h2>{post.frontmatter.title}</h2>

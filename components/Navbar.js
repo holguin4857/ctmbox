@@ -20,21 +20,54 @@ const Navbar = () => {
   const [activeIdx, setActiveIdx] = useState(-1);
   const router = useRouter();
 
-  // Determine the current language based on the path
-  const isSpanish = router.pathname.startsWith("/es");
+  // FIX 1: Use 'asPath' (actual URL) instead of 'pathname' (blueprint)
+  // This ensures we catch '/es' even on dynamic blog routes
+  const isSpanish = router.asPath.startsWith("/es");
 
   // Function to toggle language
   const toggleLanguage = () => {
+    const currentPath = router.asPath; // FIX 2: Get the REAL path (e.g., /blog/my-post)
     let newPath;
+
     if (isSpanish) {
-      newPath = router.pathname.replace("/es", "") || "/";
-      if (newPath === '') newPath = '/';
+      // Switch to English: Remove '/es' from the start
+      newPath = currentPath.replace("/es", "");
+      if (!newPath) newPath = "/"; // Fallback for root
     } else {
-      newPath = `/es${router.pathname}`;
-      if (newPath === '/es/') newPath = '/es';
+      // Switch to Spanish: Add '/es' to the start
+      // We handle the root case to avoid double slashes if needed, 
+      // but usually /es + /blog/... works fine.
+      newPath = `/es${currentPath}`;
     }
+
+    // Force the navigation
     router.push(newPath);
   };
+
+  // Optional: Highlight active navigation item
+  useEffect(() => {
+    // FIX 3: Also use asPath here to ensure highlighting works on blog posts
+    const currentPath = router.asPath;
+    
+    // Clean the path to match the MENU_LIST hrefs
+    let currentBaseHref = isSpanish 
+      ? currentPath.replace('/es', '') 
+      : currentPath;
+    
+    // Handle root edge case
+    if (!currentBaseHref) currentBaseHref = '/';
+
+    // Logic to match /blog/slug back to /blog menu item
+    // If the path starts with /blog, highlight the Blog menu
+    const currentIdx = MENU_LIST.findIndex((menu) => {
+      if (menu.href === '/') return currentBaseHref === '/';
+      return currentBaseHref.startsWith(menu.href);
+    });
+
+    if (currentIdx !== -1 && activeIdx !== currentIdx) {
+      setActiveIdx(currentIdx);
+    }
+  }, [router.asPath, activeIdx, isSpanish]);
 
   // Optional: Highlight active navigation item based on current route
   useEffect(() => {

@@ -23,7 +23,7 @@ export default function BlogPostEs({ frontmatter, content, slug }) {
           </Link>
 
           <header className={styles.header} style={{ textAlign: 'left', borderBottom: '1px solid #eee' }}>
-            <span style={{ backgroundColor: '#eab308', color: 'black', padding: '4px 8px', borderRadius: '4px', fontSize: '0.8rem' }}>
+            <span style={{ backgroundColor: '#0b0b0bff', color: 'white', padding: '4px 8px', borderRadius: '4px', fontSize: '0.8rem' }}>
               {frontmatter.categories && frontmatter.categories[0]}
             </span>
             <h1 style={{ fontSize: '2.5rem', margin: '15px 0' }}>{frontmatter.title}</h1>
@@ -34,8 +34,8 @@ export default function BlogPostEs({ frontmatter, content, slug }) {
 
           {/* FIX: Used &quot; instead of " */}
           {frontmatter.social_summary && (
-            <div className={styles.socialBox} style={{ borderLeftColor: '#eab308', backgroundColor: '#fffbe6' }}>
-              <strong>📢 Hook para Redes:</strong> &quot;{frontmatter.social_summary}&quot;
+            <div className={styles.socialBox} style={{ borderLeftColor: '#090909ff', backgroundColor: '#FFE8E5' }}>
+              &quot;{frontmatter.social_summary}&quot;
             </div>
           )}
 

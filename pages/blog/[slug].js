@@ -23,7 +23,7 @@ export default function BlogPost({ frontmatter, content, slug }) {
           </Link>
 
           <header className={styles.header} style={{ textAlign: 'left', borderBottom: '1px solid #eee' }}>
-            <span style={{ backgroundColor: '#0070f3', color: 'white', padding: '4px 8px', borderRadius: '4px', fontSize: '0.8rem' }}>
+            <span style={{ backgroundColor: '#090909ff', color: 'white', padding: '4px 8px', borderRadius: '4px', fontSize: '0.8rem' }}>
               {frontmatter.categories && frontmatter.categories[0]}
             </span>
             <h1 style={{ fontSize: '2.5rem', margin: '15px 0' }}>{frontmatter.title}</h1>
@@ -32,10 +32,10 @@ export default function BlogPost({ frontmatter, content, slug }) {
             </p>
           </header>
 
-          {/* FIX: Used &quot; instead of " to satisfy React */}
+          {/* FIX: Used &quot; instead of " */}
           {frontmatter.social_summary && (
-            <div className={styles.socialBox}>
-              <strong>📢 Social Hook:</strong> &quot;{frontmatter.social_summary}&quot;
+            <div className={styles.socialBox} style={{ borderLeftColor: '#090909ff', backgroundColor: '#FFE8E5' }}>
+              &quot;{frontmatter.social_summary}&quot;
             </div>
           )}
 
