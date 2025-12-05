@@ -17,6 +17,7 @@
     margin-bottom: 1rem;
     border-bottom: 2px solid #eaeaea;
     padding-bottom: 1rem;
+    z-index: 0;
 }
 
 .header h1 {

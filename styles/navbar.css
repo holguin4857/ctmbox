@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +12,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 header {
   position: sticky;
   z-index: 30;
   top: 0;
 }
+
 nav {
   display: flex;
   padding: 1% 1% 1% 2%;
@@ -25,7 +28,8 @@ nav {
 }
 
 .logo {
-  font-size: 30px; /* This will be overridden by the Image component's width/height props */
+  font-size: 30px;
+  /* This will be overridden by the Image component's width/height props */
 }
 
 .nav__menu-bar {
@@ -34,15 +38,19 @@ nav {
   row-gap: 6px;
   cursor: pointer;
 }
+
 .nav__menu-bar div {
   width: 40px;
   height: 4px;
   background-color: black;
   border-radius: 2px;
 }
+
 .nav__menu-list {
-  display: flex; /* Keep this as flex */
-  flex-direction: column; /* Default for mobile/smaller screens */
+  display: flex;
+  /* Keep this as flex */
+  flex-direction: column;
+  /* Default for mobile/smaller screens */
   position: fixed;
   top: 60px;
   width: 288px;
@@ -53,9 +61,11 @@ nav {
   min-height: calc(100vh - 60px);
   background-color: #ffffff;
 }
+
 .nav__menu-list.active {
   right: 0;
 }
+
 .nav__link {
   font-size: 18px;
   position: relative;
@@ -70,34 +80,51 @@ nav {
 
 .language-button {
   /* Basic Button Style */
-  background-color: #FFE8E5; /* Light grey background */
-  color: #333; /* Dark text */
-  border: 1px solid #ccc; /* Subtle border */
-  padding: 8px 14px; /* Adjust padding for a slightly larger button if desired */
-  border-radius: 4px; /* Slightly rounded corners */
-  cursor: pointer; /* Indicates it's clickable */
-  font-size: 0.9em; /* Slightly smaller font size than main text */
-  font-weight: 500; /* Medium font weight */
-  transition: all 0.2s ease-in-out; /* Smooth transition for hover effects */
-  text-transform: uppercase; /* "EN" / "ES" will be uppercase */
-  min-width: 50px; /* Ensures consistent width for both EN and ES */
-  text-align: center; /* Centers the text within the button */
-  
+  background-color: #FFE8E5;
+  /* Light grey background */
+  color: #333;
+  /* Dark text */
+  border: 1px solid #ccc;
+  /* Subtle border */
+  padding: 8px 14px;
+  /* Adjust padding for a slightly larger button if desired */
+  border-radius: 4px;
+  /* Slightly rounded corners */
+  cursor: pointer;
+  /* Indicates it's clickable */
+  font-size: 0.9em;
+  /* Slightly smaller font size than main text */
+  font-weight: 500;
+  /* Medium font weight */
+  transition: all 0.2s ease-in-out;
+  /* Smooth transition for hover effects */
+  text-transform: uppercase;
+  /* "EN" / "ES" will be uppercase */
+  min-width: 50px;
+  /* Ensures consistent width for both EN and ES */
+  text-align: center;
+  /* Centers the text within the button */
+
 
   /* Ensure it looks good in a column layout (mobile) */
-  width: 100%; /* Take full width in column layout */
+  width: 100%;
+  /* Take full width in column layout */
 }
 
 .language-button:hover {
-  background-color: #FF7F65; /* Darker grey on hover */
-  border-color: #bbb; /* Darker border on hover */
-  
+  background-color: #FF7F65;
+  /* Darker grey on hover */
+  border-color: #bbb;
+  /* Darker border on hover */
+
 }
 
 .language-button:active {
-  background-color: #FF7F65; /* Even darker on click */
-  transform: translateY(1px); /* Slight press effect */
-  
+  background-color: #FF7F65;
+  /* Even darker on click */
+  transform: translateY(1px);
+  /* Slight press effect */
+
 }
 
 /* --- END NEW STYLES --- */
@@ -115,24 +142,31 @@ nav {
   .nav__menu-bar {
     display: none;
   }
+
   .nav__menu-list {
     position: unset;
-    flex-direction: row; /* Changes to row for desktop */
+    flex-direction: row;
+    /* Changes to row for desktop */
     min-height: fit-content;
     width: fit-content;
-    column-gap: 24px; /* Spacing between nav items on desktop */
+    column-gap: 24px;
+    /* Spacing between nav items on desktop */
     align-items: center;
   }
 
   /* Adjustments for language button on desktop */
   .language-toggle {
-    margin-left: 10px; /* Add some spacing between the last nav item and the button */
+    margin-left: 10px;
+    /* Add some spacing between the last nav item and the button */
   }
 
   .language-button {
-    width: auto; /* Allow button to size naturally */
-    padding: 6px 12px; /* Slightly less padding on desktop if desired */
-    font-size: 1em; /* Adjust font size relative to other nav items */
+    width: auto;
+    /* Allow button to size naturally */
+    padding: 6px 12px;
+    /* Slightly less padding on desktop if desired */
+    font-size: 1em;
+    /* Adjust font size relative to other nav items */
   }
 }
 
@@ -142,6 +176,7 @@ nav {
   }
 
   .logo {
-    font-size: 30px; /* This will be overridden by the Image component's width/height props */
+    font-size: 30px;
+    /* This will be overridden by the Image component's width/height props */
   }
 }
