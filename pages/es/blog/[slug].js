@@ -8,11 +8,42 @@ import Head from 'next/head';
 import styles from '../../../styles/blog.module.css';
 
 export default function BlogPostEs({ frontmatter, content, slug }) {
+  // 1. Define your domain
+  const siteUrl = "https://ctmbox.com";
+
+  // 2. Build the absolute Image URL for Facebook/LinkedIn
+  // If the post has an image, combine domain + path. If not, use a default.
+  const ogImageUrl = frontmatter.image 
+    ? `${siteUrl}${frontmatter.image}` 
+    : `${siteUrl}/images/default-social.jpg`;
+
   return (
     <>
       <Head>
         <title>{`${frontmatter.title} | CTMBOX Español`}</title>
         <meta name="description" content={frontmatter.social_summary} />
+
+        {/* --- NEW: OPEN GRAPH TAGS (Facebook/LinkedIn) --- */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={frontmatter.title} />
+        <meta property="og:description" content={frontmatter.social_summary} />
+        
+        {/* The Fix: Absolute URL for the image */}
+        <meta property="og:image" content={ogImageUrl} />
+        
+        {/* Specific Spanish Locale */}
+        <meta property="og:locale" content="es_MX" />
+        <meta property="og:url" content={`${siteUrl}/es/blog/${slug}`} />
+
+        {/* Force Large Image Preview */}
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* --- NEW: TWITTER CARDS --- */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={frontmatter.title} />
+        <meta name="twitter:description" content={frontmatter.social_summary} />
+        <meta name="twitter:image" content={ogImageUrl} />
       </Head>
 
       <div className={styles.container}>

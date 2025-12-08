@@ -44,4 +44,4 @@ Al cambiar sus rutas a Arizona, los exportadores cortan efectivamente su distanc
 
 Laredo siempre será vital para la distribución hacia el Este. Pero para la Costa Oeste, Arizona es el líder logístico. No permitas que tu carga se quede estancada en el tráfico.
 
-**¿Listo para optimizar tus cruces fronterizos?** CTMBOX se especializa en el corredor Sonora-Arizona. Contacta a nuestro equipo de logística hoy para analizar la eficiencia de tu ruta.
+**¿Listo para optimizar tus cruces fronterizos?** CTM se especializa en el corredor Sonora-Arizona. Contacta a nuestro equipo de logística hoy para analizar la eficiencia de tu ruta.

@@ -44,4 +44,4 @@ By shifting lanes to Arizona, shippers effectively cut their US transit distance
 
 Laredo will always be vital for East Coast distribution. But for the West Coast, Arizona is the logistics leader. Stop letting your freight sit in traffic.
 
-**Ready to optimize your cross-border lanes?** CTMBOX specializes in the Sonora-Arizona corridor. Contact our logistics team today to analyze your route efficiency.
+**Ready to optimize your cross-border lanes?** CTM specializes in the Sonora-Arizona corridor. Contact our logistics team today to analyze your route efficiency.
