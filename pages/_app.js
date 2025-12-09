@@ -1,39 +1,39 @@
-import '@/styles/navbar.css'
-import '@/styles/footer.css'
-import { Poppins } from 'next/font/google'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import Script from 'next/script'
-import { useEffect } from 'react'
-import { useRouter } from 'next/router'
+import "@/styles/navbar.css";
+import "@/styles/footer.css";
+import { Poppins } from "next/font/google";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Script from "next/script";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 const poppins = Poppins({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export default function App({ Component, pageProps }) {
-  const router = useRouter()
+  const router = useRouter();
 
   useEffect(() => {
     const handleRouteChange = (url) => {
       // GA4 is critical, so we check strictly
       if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS && window.gtag) {
-        window.gtag('config', process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS, {
+        window.gtag("config", process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS, {
           page_path: url,
-        })
+        });
       }
       // Facebook can wait
       if (process.env.NEXT_PUBLIC_FACEBOOK_PIXEL && window.fbq) {
-        window.fbq('track', 'PageView')
+        window.fbq("track", "PageView");
       }
-    }
+    };
 
-    router.events.on('routeChangeComplete', handleRouteChange)
+    router.events.on("routeChangeComplete", handleRouteChange);
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
     <>
@@ -100,5 +100,5 @@ export default function App({ Component, pageProps }) {
       </main>
       <Footer />
     </>
-  )
+  );
 }
