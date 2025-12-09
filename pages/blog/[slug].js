@@ -67,7 +67,7 @@ export default function BlogPostEn({ frontmatter, content, slug }) {
 
           {/* Social Summary Box */}
           {frontmatter.social_summary && (
-            <div className={styles.socialBox} style={{ borderLeftColor: '#090909ff', backgroundColor: '#F8FAFC' }}>
+            <div className={styles.socialBox} style={{ borderLeftColor: '#090909ff', backgroundColor: '#FFE8E5' }}>
               &quot;{frontmatter.social_summary}&quot;
             </div>
           )}
