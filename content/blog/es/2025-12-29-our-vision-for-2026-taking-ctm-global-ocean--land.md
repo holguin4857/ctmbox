@@ -32,7 +32,7 @@ Mientras incursionamos en carga marítima, no olvidamos nuestras raíces. Estamo
 
 ## 3. La Terminal de Tucson como Hub
 
-Nuestra yard en **791 E Evans Blvd** servirá como punto de consolidación para esta nueva estrategia global. Actuará como el hub donde cargas parciales (LTL) pueden consolidarse en Contenedores Marítimos, aprovechando nuestra ubicación estratégica.
+Nuestra propiedad en **791 E Evans Blvd** servirá como punto de consolidación para esta nueva estrategia global. Actuará como el hub donde cargas parciales (LTL) pueden consolidarse en Contenedores Marítimos, aprovechando nuestra ubicación estratégica.
 
 ## Conclusión
 
