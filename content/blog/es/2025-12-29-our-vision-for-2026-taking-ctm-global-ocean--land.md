@@ -23,17 +23,16 @@ Estamos incursionando activamente en el mercado de **Ocean Freight Forwarding** 
 - **Alianzas Aduanales:** Estamos finalizando alianzas con Agentes Aduanales especializados para manejar la complejidad de las exportaciones internacionales.
 - **La Meta:** Ofrecer una solución real "Puerta-a-Puerto"—recolectando tu producto en Hermosillo y gestionándolo hasta un puerto en Asia o Europa.
 
-## 2. Inversión en Nuestra Flota (Asset-Based)
+## 2. Digitalizando Nuestra Flota (Asset-Based)
 
-Mientras nos expandimos globalmente, no olvidamos nuestras raíces. Estamos incrementando nuestra flota de camiones para asegurar capacidad dedicada en la "Primera Milla" y "Última Milla".
+Mientras incursionamos en carga marítima, no olvidamos nuestras raíces. Estamos invirtiendo fuertemente en herramientas digitales de gestión para maximizar la eficiencia y confiabilidad de nuestros camiones en la "Primera Milla" y "Última Milla".
 
-- **Meta:** 100% control con activos propios en las rutas críticas que alimentan a los puertos (como Guaymas o Long Beach).
-- **Beneficio:** Tratas con una sola compañía para la recolección y la reserva marítima.
+- **Meta:** 100% visibilidad en tiempo real y programación optimizada en las rutas críticas que alimentan a los puertos (como Guaymas o Long Beach).
+- **Beneficio:** Obtienes una capacidad más inteligente y confiable. Aseguramos que el camión esté exactamente donde debe estar.
 
 ## 3. La Terminal de Tucson como Hub
 
 Nuestra yard en **791 E Evans Blvd** servirá como punto de consolidación para esta nueva estrategia global. Actuará como el hub donde cargas parciales (LTL) pueden consolidarse en Contenedores Marítimos, aprovechando nuestra ubicación estratégica.
-yarda
 
 ## Conclusión
 

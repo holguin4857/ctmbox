@@ -23,16 +23,16 @@ We are actively incurring into the **Ocean Freight Forwarding** market to suppor
 - **Customs Partnerships:** We are finalizing partnerships with specialized Customs Agents to handle the complexities of international exports.
 - **The Goal:** To offer a true "Door-to-Port" solution—picking up your product and managing it all the way to a port in Asia or Europe.
 
-## 2. Investing in Our Fleet (Asset-Based)
+## 2. Digitalizing Our Fleet (Asset-Based)
 
-While we expand our ocean freight division, we aren't forgetting our roots. We are increasing our truck fleet to ensure we have dedicated capacity for the "First Mile" and "Last Mile."
+While we expand our ocean freight division, we aren't forgetting our roots. We are investing heavily in digital fleet management tools to maximize the efficiency and reliability of our trucks for the "First Mile" and "Last Mile."
 
-- **Goal:** 100% Asset-Based control on the critical lanes that feed the ports (like Guaymas or Long Beach).
-- **Benefit:** You deal with one company for the pickup and the ocean booking.
+- **Goal:** 100% real-time visibility and optimized scheduling on the critical lanes that feed the ports (like Guaymas or Long Beach).
+- **Benefit:** You get smarter, more reliable capacity. We ensure the truck is exactly where it needs to be.
 
 ## 3. The Tucson Terminal as a Hub
 
-Our yard at **791 E Evans Blvd** will serve as the consolidation point for this new global strategy. It will act as the staging hub where LTL loads can be consolidated into Ocean Containers, leveraging the benefits of our strategic location.
+Our property at **791 E Evans Blvd** will serve as the consolidation point for this new global strategy. It will act as the staging hub where LTL loads can be consolidated into Ocean Containers, leveraging the benefits of our strategic location.
 
 ## Conclusion
 
