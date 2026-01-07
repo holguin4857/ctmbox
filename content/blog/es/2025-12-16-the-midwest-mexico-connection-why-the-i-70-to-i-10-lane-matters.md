@@ -1,6 +1,6 @@
 ---
 title: "La Conexión Medio Oeste-México: Por qué Importa la Ruta I-70 a I-10"
-date: 2026-01-10
+date: 2025-12-17
 draft: false
 lang: "es"
 categories: ["Rutas", "Midwest"]

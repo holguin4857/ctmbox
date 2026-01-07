@@ -1,6 +1,6 @@
 ---
 title: "The Midwest-Mexico Connection: Why the I-70 to I-10 Lane Matters"
-date: 2026-01-10
+date: 2025-12-17
 draft: false
 lang: "en"
 categories: ["Routes", "Midwest"]

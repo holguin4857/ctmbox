@@ -1,6 +1,6 @@
 ---
 title: "Alimentando la Fábrica: El Rol de CTM en la Cadena de Suministro de las Maquiladoras"
-date: 2026-01-30
+date: 2025-12-16
 draft: false
 lang: "es"
 categories: ["Industrias", "Manufactura"]

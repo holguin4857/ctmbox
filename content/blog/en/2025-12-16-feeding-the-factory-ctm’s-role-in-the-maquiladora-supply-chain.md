@@ -1,6 +1,6 @@
 ---
 title: "Feeding the Factory: CTM’s Role in the Maquiladora Supply Chain"
-date: 2026-01-30
+date: 2025-12-16
 draft: false
 lang: "en"
 categories: ["Industries", "Manufacturing"]

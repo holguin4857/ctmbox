@@ -1,6 +1,6 @@
 ---
 title: "2025 Year in Review: Grateful for the Journey"
-date: 2025-12-28
+date: 2025-12-18
 draft: false
 lang: "en"
 categories: ["Company News", "Community"]
