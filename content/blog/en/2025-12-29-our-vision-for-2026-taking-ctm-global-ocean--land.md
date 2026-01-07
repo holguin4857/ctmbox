@@ -1,6 +1,6 @@
 ---
 title: "Our Vision for 2026: Taking CTM Global (Ocean & Land)"
-date: 2025-12-29
+date: 2026-01-12
 draft: false
 lang: "en"
 categories: ["Company News", "Ocean Freight", "Strategy"]
