@@ -1,6 +1,6 @@
 ---
 title: "Cadena de Custodia: La Única Defensa Real Contra el Robo de Carga"
-date: 2026-01-20
+date: 2025-12-15
 draft: false
 lang: "es"
 categories: ["Seguridad", "Gestión de Riesgos"]

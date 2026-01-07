@@ -1,6 +1,6 @@
 ---
 title: "Chain of Custody: The Only Real Defense Against Cargo Theft"
-date: 2026-01-20
+date: 2025-12-15
 draft: false
 lang: "en"
 categories: ["Security", "Risk Management"]
