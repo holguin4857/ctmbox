@@ -5,7 +5,7 @@ draft: false
 lang: "en"
 categories: ["Safety", "Logistics"]
 image: "/images/blog/cargo-security-ctm.jpg"
-social_summary: "High-tech scams are rising, but they can't beat a professional protocol. See how CTM uses old-school discipline and modern vigilance to keep your freight safe. #CargoSecurity #ArizonaTrucking #CTM #Logistics"
+social_summary: "High-tech scams are rising, but they can't beat a professional protocol. See how CTM uses old-school discipline and modern vigilance to keep your freight safe."
 ---
 
 ## Introduction

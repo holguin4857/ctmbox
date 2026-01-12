@@ -5,7 +5,7 @@ draft: false
 lang: "es"
 categories: ["Seguridad", "Logística"]
 image: "/images/blog/cargo-security-ctm.jpg"
-social_summary: "Las estafas digitales aumentan, pero no pueden contra un protocolo profesional. Te explicamos cómo CTM usa disciplina y vigilancia constante para proteger tu carga. #SeguridadCarga #Arizona #CTM #Logistica"
+social_summary: "Las estafas digitales aumentan, pero no pueden contra un protocolo profesional. Te explicamos cómo CTM usa disciplina y vigilancia constante para proteger tu carga."
 ---
 
 ## Introducción
