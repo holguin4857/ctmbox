@@ -1,6 +1,6 @@
 ---
 title: "El Factor Humano: Por Qué el Protocolo de CTM Vence a los Estafadores"
-date: 2026-01-12
+date: 2026-01-13
 draft: false
 lang: "es"
 categories: ["Seguridad", "Logística"]
