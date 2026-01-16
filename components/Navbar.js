@@ -35,7 +35,7 @@ const Navbar = () => {
       if (!newPath) newPath = "/"; // Fallback for root
     } else {
       // Switch to Spanish: Add '/es' to the start
-      // We handle the root case to avoid double slashes if needed, 
+      // We handle the root case to avoid double slashes if needed,
       // but usually /es + /blog/... works fine.
       newPath = `/es${currentPath}`;
     }
@@ -48,19 +48,19 @@ const Navbar = () => {
   useEffect(() => {
     // FIX 3: Also use asPath here to ensure highlighting works on blog posts
     const currentPath = router.asPath;
-    
+
     // Clean the path to match the MENU_LIST hrefs
-    let currentBaseHref = isSpanish 
-      ? currentPath.replace('/es', '') 
+    let currentBaseHref = isSpanish
+      ? currentPath.replace("/es", "")
       : currentPath;
-    
+
     // Handle root edge case
-    if (!currentBaseHref) currentBaseHref = '/';
+    if (!currentBaseHref) currentBaseHref = "/";
 
     // Logic to match /blog/slug back to /blog menu item
     // If the path starts with /blog, highlight the Blog menu
     const currentIdx = MENU_LIST.findIndex((menu) => {
-      if (menu.href === '/') return currentBaseHref === '/';
+      if (menu.href === "/") return currentBaseHref === "/";
       return currentBaseHref.startsWith(menu.href);
     });
 
@@ -72,7 +72,9 @@ const Navbar = () => {
   // Optional: Highlight active navigation item based on current route
   useEffect(() => {
     const currentPath = router.pathname;
-    const currentBaseHref = isSpanish ? currentPath.replace('/es', '') || '/' : currentPath;
+    const currentBaseHref = isSpanish
+      ? currentPath.replace("/es", "") || "/"
+      : currentPath;
 
     const currentIdx = MENU_LIST.findIndex(
       (menu) => menu.href === currentBaseHref
@@ -81,7 +83,6 @@ const Navbar = () => {
       setActiveIdx(currentIdx);
     }
   }, [router.pathname, activeIdx, isSpanish]);
-
 
   return (
     <header>
@@ -110,8 +111,10 @@ const Navbar = () => {
             const displayText = isSpanish ? menu.esText : menu.enText;
 
             // Adjust href for Spanish pages if current language is Spanish
-            const adjustedHref = isSpanish ? `/es${menu.href === '/' ? '' : menu.href}` : menu.href;
-            const finalHref = adjustedHref === '/es/' ? '/es' : adjustedHref;
+            const adjustedHref = isSpanish
+              ? `/es${menu.href === "/" ? "" : menu.href}`
+              : menu.href;
+            const finalHref = adjustedHref === "/es/" ? "/es" : adjustedHref;
 
             return (
               <div
@@ -122,17 +125,18 @@ const Navbar = () => {
                 key={menu.enText} // Use enText as key for consistency
               >
                 {/* Pass the dynamic text and adjusted href to NavItem */}
-                <NavItem active={activeIdx === idx} text={displayText} href={finalHref} />
+                <NavItem
+                  active={activeIdx === idx}
+                  text={displayText}
+                  href={finalHref}
+                />
               </div>
             );
           })}
 
           {/* Language Toggle Button */}
           <div className="language-toggle">
-            <button
-              onClick={toggleLanguage}
-              className="language-button"
-            >
+            <button onClick={toggleLanguage} className="language-button">
               {isSpanish ? "ENGLISH" : "ESPAÑOL"}
             </button>
           </div>
