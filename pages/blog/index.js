@@ -67,7 +67,7 @@ export async function getStaticProps() {
     const slug = filename.replace(".md", "");
     const markdownWithMeta = fs.readFileSync(
       path.join(filesPath, filename),
-      "utf-8"
+      "utf-8",
     );
     const { data: frontmatter } = matter(markdownWithMeta);
     if (frontmatter.date && typeof frontmatter.date === "object") {
@@ -77,7 +77,7 @@ export async function getStaticProps() {
   });
 
   posts.sort(
-    (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+    (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
   );
   return { props: { posts } };
 }

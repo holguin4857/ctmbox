@@ -38,7 +38,7 @@ export default function BlogIndexEs({ posts }) {
               )}
 
               <small className={styles.meta}>
-                {post.frontmatter.date.split("T")[0]} • 🇪🇸
+                {post.frontmatter.date.split("T")[0]}
               </small>
 
               <h2>{post.frontmatter.title}</h2>
@@ -68,7 +68,7 @@ export async function getStaticProps() {
     const slug = filename.replace(".md", "");
     const markdownWithMeta = fs.readFileSync(
       path.join(filesPath, filename),
-      "utf-8"
+      "utf-8",
     );
     const { data: frontmatter } = matter(markdownWithMeta);
     if (frontmatter.date && typeof frontmatter.date === "object") {
@@ -78,7 +78,7 @@ export async function getStaticProps() {
   });
 
   posts.sort(
-    (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+    (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
   );
   return { props: { posts } };
 }
