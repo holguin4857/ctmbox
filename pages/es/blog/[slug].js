@@ -79,7 +79,7 @@ export default function BlogPostEs({ frontmatter, content, slug }) {
               {frontmatter.title}
             </h1>
             <p className={styles.meta}>
-              {frontmatter.date.split("T")[0]} • 🇪🇸 Español
+              {frontmatter.date.split("T")[0]} • Español
             </p>
           </header>
 
@@ -125,7 +125,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params: { slug } }) {
   const markdownWithMeta = fs.readFileSync(
     path.join("content/blog/es", slug + ".md"),
-    "utf-8"
+    "utf-8",
   );
   const { data: frontmatter, content } = matter(markdownWithMeta);
   if (frontmatter.date && typeof frontmatter.date === "object") {
