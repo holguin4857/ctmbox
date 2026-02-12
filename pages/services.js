@@ -13,7 +13,7 @@ export default function Services() {
         <title>Road & Sea Freight Forwarding Services | CTM</title>
         <meta
           name="description"
-          content="Explore CTM&apos;s reliable logistics services, including road freight across the Arizona-Sonora corridor and global sea freight solutions (FCL & LCL)."
+          content="Explore CTM's reliable logistics services, including road freight across the Arizona-Sonora corridor and global sea freight solutions (FCL & LCL)."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -41,19 +41,19 @@ export default function Services() {
 
       <div className={features.container}>
         <div className={features.content}>
-          <h2>Road Freight</h2>
+          <h2>Trucking & Ground Transport</h2>
           <p>
             <strong>
               Ship your cargo confidently across the Arizona-Sonora corridor and
               beyond.
             </strong>{" "}
-            Our road freight solutions are the backbone of efficient
-            cross-border trade between Mexico and the United States, with
-            specialized expertise in the dynamic Arizona-Sonora corridor. We
-            offer reliable, flexible, and tailored ground transport services for
-            a wide range of goods, whether you require Full Truckload (FTL) for
-            large volumes or Less Than Truckload (LTL) for smaller, more
-            cost-effective shipments.
+            As asset-based providers with our own fleet of trucks, our ground
+            solutions are the backbone of efficient cross-border trade between
+            Mexico and the United States. We offer specialized expertise in the
+            dynamic Arizona-Sonora corridor, providing reliable and flexible
+            transport tailored to your specific needs. Whether you require Full
+            Truckload (FTL) for large volumes or Less-than-Truckload (LTL) for
+            smaller, cost-effective shipments, we have you covered.
           </p>
           <p>
             Leveraging our extensive network and hands-on experience as trucking
@@ -77,19 +77,19 @@ export default function Services() {
       </div>
       <div className={features.container}>
         <div className={features.content}>
-          <h2>Sea Freight</h2>
+          <h2>Ocean Freight</h2>
           <p>
             <strong>
               Optimize your international shipments with our flexible ocean
               solutions.
             </strong>{" "}
             For businesses seeking cost-effective and reliable transportation
-            for large volumes of goods across global distances, our sea freight
-            services are the ideal choice. We offer both Full Container Load
-            (FCL) options, providing you with exclusive use of a container for
-            maximum security and efficiency, and Less than Container Load (LCL)
-            solutions, where your cargo shares space with other shipments to
-            optimize costs.
+            for large volumes of goods across global distances, our ocean
+            freight services are the ideal choice. We offer both Full Container
+            Load (FCL) options, providing you with exclusive use of a container
+            for maximum security and efficiency, and Less than Container Load
+            (LCL) solutions, where your cargo shares space with other shipments
+            to optimize costs.
           </p>
           <p>
             With a global network of partners and carriers, we facilitate

@@ -43,19 +43,19 @@ export default function Home() {
 
       <section className={services.columns}>
         <article className={services.column}>
-          <h2>Road Freight</h2>
+          <h2>Ground Logistics</h2>
           <p>
             Ship your cargo confidently across the Arizona-Sonora corridor and
-            beyond. Efficient, reliable, and tailored ground transport for all
-            your goods.
+            beyond with our dedicated fleet of trucks. From regional hauls to
+            complex cross-border routes.
           </p>
         </article>
         <article className={services.column}>
-          <h2>Sea Freight</h2>
+          <h2>Ocean Logistics</h2>
           <p>
-            Optimize your international shipments with our flexible ocean
-            solutions. Full Container Load (FCL) or Less than Container Load
-            (LCL) for cost-effective global reach.
+            Optimize your international supply chain with our scalable ocean
+            freight services. Whether you are shipping full containers or
+            smaller loads, we provide the global reach your business demands.
           </p>
         </article>
       </section>
